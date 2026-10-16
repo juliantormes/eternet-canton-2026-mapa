@@ -1,0 +1,4083 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#173f3b"><meta name="description" content="Mapa de proveedores y recorridos de Eternet en Canton Fair, 15–17 octubre de 2026."><link rel="manifest" href="manifest.webmanifest"><link rel="icon" href="icon.svg" type="image/svg+xml"><title>Eternet · Mapa Canton Fair 2026</title>
+<style>
+:root{--paper:#f5f2e9;--card:#fffefa;--ink:#203733;--muted:#65746e;--line:#dadfd5;--green:#173f3b;--mint:#d8e8d8;--orange:#d76c32;--peach:#fae4d4;--blue:#537598;--radius:20px;font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--ink);background:var(--paper);font-synthesis:none}*{box-sizing:border-box}body{margin:0;padding-bottom:94px}button,input,select,textarea{font:inherit}button,a,input,select,textarea{-webkit-tap-highlight-color:transparent}button{cursor:pointer;color:inherit}button,a{touch-action:manipulation}button{border:0}button:focus-visible,a:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-visible{outline:3px solid var(--orange);outline-offset:3px}a{color:var(--green)}button:disabled{opacity:.4;cursor:default}svg{display:block}.icon{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0}.top{border-bottom:1px solid var(--line);padding:18px max(20px,calc((100vw - 1400px)/2));display:flex;align-items:center;justify-content:space-between;gap:10px;background:var(--paper)}.wordmark{font-weight:850;letter-spacing:-.7px;font-size:22px}.wordmark span{color:var(--orange)}.edition{font-size:11px;letter-spacing:1.8px;color:var(--muted);margin-top:3px;text-transform:uppercase}.top-actions{display:flex;gap:8px}.round{display:inline-flex;align-items:center;justify-content:center;background:var(--card);border:1px solid var(--line);border-radius:50%;width:42px;height:42px;flex-shrink:0}.container{max-width:1440px;margin:auto;padding:26px 24px}.introline{display:flex;justify-content:space-between;gap:20px;align-items:end;margin-bottom:20px}.access-note{font-size:11px;color:var(--green);margin:-6px 0 15px}.eyebrow{font-size:11px;font-weight:750;letter-spacing:1.4px;text-transform:uppercase;color:var(--muted);margin:0 0 9px}h1{font-size:clamp(28px,3.2vw,42px);letter-spacing:-1.5px;line-height:1.05;margin:0 0 10px}h2{font-size:23px;letter-spacing:-.7px;margin:0 0 8px}h3{font-size:17px;margin:0 0 6px;letter-spacing:-.3px}p{line-height:1.5}p.sub{font-size:14px;margin:0;color:var(--muted);max-width:650px}.status{font-size:11px;white-space:nowrap;display:flex;align-items:center;gap:6px;color:var(--muted)}.dot{width:6px;height:6px;border-radius:50%;background:#50865e}.daytabs{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;max-width:760px;margin:0 0 22px}.day{background:transparent;border:1px solid #d4dbd0;text-align:left;border-radius:14px;padding:12px 16px;min-height:73px}.day[aria-selected=true]{background:var(--green);color:#fff;border-color:var(--green)}.day strong{font-size:17px;display:block;letter-spacing:-.3px}.day small{font-size:11px;display:block;margin-top:5px;opacity:.75}.date-label{font-size:11px;font-weight:400;opacity:.75;margin-left:4px}.view{display:none}.view.active{display:block}.map-layout{display:grid;grid-template-columns:minmax(0,1.75fr) minmax(310px,1fr);gap:20px;align-items:start}.panel{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden}.panelhead{padding:18px 20px 14px;display:flex;justify-content:space-between;gap:10px;align-items:start}.panelhead h2{font-size:19px}.panelhead p{font-size:12px;color:var(--muted);margin:5px 0 0}.maphead-controls{display:flex;gap:6px}.chip,.smallbtn{display:inline-flex;align-items:center;justify-content:center;gap:6px;border:1px solid var(--line);border-radius:30px;background:var(--card);padding:9px 13px;min-height:38px;font-size:12px;white-space:nowrap}.chip.active{background:var(--green);border-color:var(--green);color:#fff}.smallbtn{border-radius:10px}.smallbtn.primary{background:var(--green);color:#fff;border-color:var(--green)}.smallbtn.orange{background:var(--peach);border-color:#e9c7ad}.chip .icon,.smallbtn .icon{width:16px;height:16px}.mapbar{display:flex;gap:6px;padding:0 20px 12px;flex-wrap:wrap}.mapviewport{height:470px;overflow:hidden;position:relative;background:#eeeee5;touch-action:none;border-block:1px solid var(--line)}#map-area{max-width:160px;min-width:140px}#map{width:100%;height:100%;user-select:none}.mapzoom{position:absolute;right:12px;bottom:12px;display:flex;flex-direction:column;gap:5px}.mapzoom button{width:39px;height:39px;border:1px solid var(--line);border-radius:10px;background:var(--card);display:grid;place-items:center;font-size:20px;box-shadow:0 2px 6px #20373312}.mapcaption{font-size:11px;line-height:1.5;padding:12px 20px;color:var(--muted);margin:0}.mapcaption strong{color:var(--ink)}.legend{display:flex;gap:14px;align-items:center;padding:12px 20px 0;font-size:11px;color:var(--muted);flex-wrap:wrap}.swatch{height:3px;width:22px;background:var(--orange);border-radius:2px;display:inline-block;margin-right:5px;vertical-align:middle}.legend .swatch.c{background:var(--green)}.hall-buttons{display:flex;gap:5px;flex-wrap:wrap;padding:12px 20px 0}.hall-buttons button{flex:0 0 auto;border-radius:10px;padding:8px 10px;background:#ebece3;font-size:12px;min-height:36px;white-space:nowrap}.hall-buttons button.active{background:var(--green);color:white}.hall{cursor:pointer;outline:none}.hall rect{transition:fill .15s}.hall:focus-visible rect{stroke:var(--orange);stroke-width:3}.hall:hover rect{stroke:var(--green);stroke-width:1.8}.route-note{background:#e9eee3;border:1px solid #d6dfce;border-radius:15px;padding:15px 17px;font-size:13px;line-height:1.5;margin-bottom:16px}.route-note strong{display:block;margin-bottom:5px}.route-top{display:flex;gap:10px;justify-content:space-between;align-items:center}.route-number{width:29px;height:29px;border:1px solid #cbd5c8;border-radius:50%;display:grid;place-items:center;flex-shrink:0;font-size:12px;font-weight:700;background:var(--paper)}.route-number.newnum{background:var(--orange);color:#fff;border-color:var(--orange)}.stand{font-variant-numeric:tabular-nums;font-size:16px;letter-spacing:.3px;font-weight:750;color:var(--green);overflow-wrap:anywhere}.mini-meta{font-size:11px;color:var(--muted)}.tag{border-radius:5px;padding:3px 6px;font-size:10px;display:inline-block;background:#e5eadf;color:#465e49;letter-spacing:.15px}.tag.new{background:var(--peach);color:#9c4b20}.tag.opt{background:#ecece6;color:var(--muted)}.tag.done{background:var(--mint);color:var(--green)}.halllist{max-height:510px;overflow:auto}.supplier-row{padding:14px 20px;width:100%;background:transparent;border-top:1px solid var(--line);text-align:left;display:flex;gap:12px;align-items:center}.supplier-row:hover{background:#f4f4ea}.row-info{flex:1;min-width:0}.row-info strong{display:block;font-size:14px;margin:4px 0}.row-info .stand{font-size:16px}.row-info small{color:var(--muted);font-size:11px;display:block;line-height:1.4}.chevron{color:var(--muted);font-size:22px}.hall-empty{padding:18px 20px;font-size:13px;color:var(--muted)}.map-hint{margin:14px 0 0;font-size:12px;line-height:1.5;color:var(--muted)}.linkbtn{background:none;color:var(--green);text-decoration:underline;padding:0;font-size:inherit}.section-header{display:flex;align-items:start;justify-content:space-between;gap:18px;margin-bottom:18px}.section-header p{margin:6px 0 0;font-size:13px;color:var(--muted)}.route-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.stopcard{padding:18px 20px;background:var(--card);border:1px solid var(--line);border-radius:17px}.stopcard.done{background:#edf1e7}.stop-top{display:flex;align-items:center;gap:10px;margin-bottom:12px}.stop-top .right{margin-left:auto;display:flex;gap:5px;align-items:center;flex-wrap:wrap;justify-content:end}.stopcard h3 button{background:none;padding:0;text-align:left;font-weight:700;font-size:17px}.stopcard p{font-size:13px;margin:8px 0 14px;color:var(--muted)}.stopfoot{display:flex;align-items:center;justify-content:space-between;gap:8px}.check{display:flex;align-items:center;gap:7px;font-size:12px;cursor:pointer}.check input{width:19px;height:19px;accent-color:var(--green);margin:0}.progress{height:4px;background:#e2e6db;border-radius:3px;margin-top:10px;overflow:hidden}.progress span{display:block;height:100%;background:var(--green);transition:width .2s}.route-summary{font-size:12px;color:var(--muted);margin:8px 0 18px}.search-wrap{display:flex;gap:8px;margin-bottom:12px}.searchbox{display:flex;align-items:center;gap:10px;background:var(--card);border:1px solid var(--line);border-radius:13px;padding:0 14px;flex:1;min-width:0}.searchbox input{border:0;background:none;width:100%;padding:14px 0;outline:none;font-size:15px;color:var(--ink);min-width:0}.select{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px;font-size:13px;min-width:75px;color:var(--ink)}.filter-row{display:flex;gap:6px;overflow:auto;padding:2px 2px 12px;scrollbar-width:none}.results-meta{font-size:12px;color:var(--muted);margin:0 0 15px}.supplier-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.catalogcard{border:1px solid var(--line);background:var(--card);border-radius:17px;padding:17px;display:flex;flex-direction:column;align-items:start;text-align:left;min-height:160px}.catalogcard h3{margin:10px 0 6px;font-size:16px}.catalogcard p{font-size:12px;color:var(--muted);margin:0 0 12px;line-height:1.45}.catalogcard .stand{margin-top:auto;font-size:15px}.cardtop{display:flex;align-items:center;gap:5px;width:100%;flex-wrap:wrap}.cardtop .mini-meta{margin-right:auto}.empty{background:var(--card);border:1px dashed #bac8b8;padding:30px;text-align:center;border-radius:15px;font-size:14px;grid-column:1/-1}.ideas-lead{background:var(--green);color:#fff;border-radius:var(--radius);padding:24px;margin-bottom:20px;max-width:960px}.ideas-lead h2{font-size:27px;max-width:600px}.ideas-lead p{font-size:14px;opacity:.83;max-width:780px;margin-bottom:0}.ideas-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.idea{padding:22px;border:1px solid var(--line);border-radius:18px;background:var(--card)}.idea .eyebrow{color:var(--orange)}.idea p{font-size:13px;color:var(--muted);margin:9px 0 15px}.idea ul{padding-left:18px;font-size:12px;color:var(--muted);line-height:1.6}.tips{margin-top:20px;padding:20px;border-top:1px solid var(--line);font-size:13px;line-height:1.6}.tips details{padding:12px 0}.tips summary{font-weight:700;cursor:pointer}.tips p{color:var(--muted);max-width:800px}.bottomnav{position:fixed;bottom:0;left:0;width:100%;background:#fffefaf2;backdrop-filter:blur(14px);z-index:10;border-top:1px solid var(--line);padding:8px 18px max(8px,env(safe-area-inset-bottom));display:flex;gap:5px;justify-content:center}.navitem{display:flex;gap:9px;align-items:center;justify-content:center;max-width:200px;flex:1;background:none;border-radius:12px;padding:13px;font-size:12px;min-height:45px;color:var(--muted)}.navitem.active{background:#e6ece0;color:var(--green);font-weight:750}.toast{position:fixed;bottom:100px;left:50%;transform:translateX(-50%);background:var(--green);color:white;padding:12px 20px;border-radius:14px;box-shadow:0 6px 25px #0002;z-index:100;width:max-content;max-width:90vw;font-size:13px;display:none;text-align:center}.toast.show{display:block}dialog{border:1px solid var(--line);border-radius:24px;width:min(620px,calc(100% - 24px));max-height:90dvh;padding:0;background:var(--card);color:var(--ink);box-shadow:0 20px 100px #0003}dialog::backdrop{background:#123c38aa;backdrop-filter:blur(3px)}.modal-top{position:sticky;top:0;background:var(--card);padding:18px 22px 13px;border-bottom:1px solid var(--line);display:flex;gap:12px;align-items:start;z-index:1}.modal-top .round{margin-left:auto;width:36px;height:36px}.modal-top h2{font-size:23px;overflow-wrap:anywhere;margin-top:8px}.modal-body{padding:18px 22px 25px}.bigstand{background:var(--green);padding:17px;border-radius:14px;color:#fff;margin-bottom:15px}.bigstand .stand{color:#fff;font-size:24px;line-height:1.35}.bigstand small{font-size:11px;display:block;opacity:.75;margin-bottom:5px}.standalt{font-size:12px;opacity:.8;line-height:1.6;margin-top:8px}.modal-body p{font-size:14px;line-height:1.55;color:var(--muted)}.modal-body .legal{font-size:10px;color:var(--muted);overflow-wrap:anywhere;line-height:1.5}.modal-actions{display:flex;gap:8px;flex-wrap:wrap;margin:16px 0}.note-label{font-size:12px;display:block;font-weight:700;margin:20px 0 8px}textarea{width:100%;border:1px solid #cad4c5;background:#f9faf3;border-radius:12px;min-height:95px;resize:vertical;padding:12px;font-size:14px;color:var(--ink)}.save-caption{font-size:10px;color:var(--muted);line-height:1.5;margin-top:7px}.source-links{display:flex;gap:12px;flex-wrap:wrap;font-size:12px;margin:15px 0}.filetools{display:flex;gap:8px;flex-wrap:wrap;margin:15px 0}.modal-body h3{margin-top:20px}.source-info{padding-top:15px;border-top:1px solid var(--line);font-size:11px;line-height:1.6;color:var(--muted)}.offline-state{font-size:12px;color:var(--muted);margin:10px 0}.noflex{display:block}.back-to-map{display:flex;align-items:center;gap:7px}.nearby-note{font-size:12px;margin:12px 0;color:var(--muted)}
+@media(min-width:1100px){.sidepanel{position:sticky;top:20px}.mapviewport{height:550px}.daytabs{max-width:none;width:680px}.introline{margin-bottom:24px}}
+@media(max-width:900px){.map-layout{grid-template-columns:1fr}.halllist{max-height:390px}.supplier-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.mapviewport{height:410px}.introline .status{display:none}}
+@media(max-width:600px){body{padding-bottom:92px}.top{padding:13px 18px}.wordmark{font-size:20px}.edition{font-size:9px;letter-spacing:1.2px}.container{padding:21px 16px}.introline{margin-bottom:18px}.eyebrow{font-size:10px;margin-bottom:8px}h1{font-size:31px;letter-spacing:-1px}p.sub{font-size:12px;max-width:330px}.daytabs{gap:6px;margin-bottom:16px}.day{padding:11px 10px;min-height:67px}.day strong{font-size:17px}.day small{font-size:10px;line-height:1.4}.date-label{font-size:10px;margin-left:2px}.panelhead{padding:15px 15px 11px}.panelhead h2{font-size:18px}.panelhead p{font-size:11px;line-height:1.4}.mapbar{padding:0 15px 11px}.mapbar .chip{font-size:11px;padding:8px 11px;min-height:35px}.mapviewport{height:355px}.legend{padding:12px 15px 0;font-size:10px;gap:8px}.mapcaption{padding:10px 15px;font-size:10px}.hall-buttons{padding:11px 15px 0}.supplier-row{padding:13px 15px}.map-layout{gap:14px}.section-header{margin-bottom:14px}.section-header h2{font-size:22px}.section-header p{font-size:12px}.section-header .smallbtn{font-size:11px;padding:8px 10px}.route-note{font-size:12px;padding:13px 15px}.route-grid,.supplier-grid,.ideas-grid{grid-template-columns:1fr}.stopcard{padding:16px}.catalogcard{min-height:140px}.catalogcard h3{font-size:17px}.bottomnav{padding:5px 8px max(8px,env(safe-area-inset-bottom));gap:2px}.navitem{padding:8px 4px;font-size:10px;gap:5px;flex-direction:column;min-height:52px}.navitem .icon{width:20px;height:20px}.chip{font-size:11px;padding:9px 11px}.filter-row{gap:5px}.ideas-lead{padding:20px}.ideas-lead h2{font-size:24px}.ideas-lead p{font-size:12px}.idea{padding:19px}.modal-top{padding:16px 18px 12px}.modal-body{padding:16px 18px 23px}.bigstand .stand{font-size:21px}.tips{padding:12px 0}.mapzoom button{height:35px;width:35px}.mapzoom{right:9px;bottom:9px}.search-wrap{gap:6px}.select{font-size:12px;max-width:88px;padding:8px}.status{font-size:10px}}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}@media print{.top-actions,.bottomnav,.mapzoom,.daytabs,.filter-row,.modal-actions{display:none!important}body{padding:0}.view{display:none!important}#view-route{display:block!important}.route-grid{grid-template-columns:1fr 1fr}.stopcard{break-inside:avoid}dialog{display:none!important}}
+</style></head><body>
+<svg style="display:none" aria-hidden="true"><symbol id="i-map" viewBox="0 0 24 24"><path d="m3 5 6-2 6 2 6-2v16l-6 2-6-2-6 2zM9 3v16M15 5v16"/></symbol><symbol id="i-route" viewBox="0 0 24 24"><circle cx="6" cy="5" r="2"/><circle cx="18" cy="19" r="2"/><path d="M8 5h8a4 4 0 0 1 0 8H8a3 3 0 0 0 0 6h8"/></symbol><symbol id="i-grid" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></symbol><symbol id="i-bulb" viewBox="0 0 24 24"><path d="M9 18v-2c-5-4-4-12 3-12s8 8 3 12v2M9 18h6M10 21h4"/></symbol><symbol id="i-share" viewBox="0 0 24 24"><path d="M12 16V3m-4 4 4-4 4 4M5 12v8h14v-8"/></symbol><symbol id="i-search" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></symbol><symbol id="i-pin" viewBox="0 0 24 24"><path d="M19 10c0 5-7 11-7 11S5 15 5 10a7 7 0 1 1 14 0Z"/><circle cx="12" cy="10" r="2"/></symbol><symbol id="i-star" viewBox="0 0 24 24"><path d="m12 3 3 6 7 1-5 5 1 7-6-3-6 3 1-7-5-5 7-1z"/></symbol><symbol id="i-download" viewBox="0 0 24 24"><path d="M12 3v12m-5-5 5 5 5-5M4 16v5h16v-5"/></symbol><symbol id="i-close" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"/></symbol><symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7v.1"/></symbol></svg>
+<header class="top"><div><div class="wordmark">eternet<span>·</span></div><div class="edition">Canton Fair / Guangzhou 2026</div></div><div class="top-actions"><button class="round" id="share" aria-label="Compartir mapa"><svg class="icon"><use href="#i-share"/></svg></button><button class="round" id="info" aria-label="Guardar mapa y ayuda"><svg class="icon"><use href="#i-download"/></svg></button></div></header>
+<main class="container"><div class="introline"><div><p class="eyebrow">15 — 17 octubre · Eternet Sistemas</p><h1>Ruta de la feria.</h1><p class="sub">16: C primero. 17: routers. D del día 15, completado.</p></div><div class="status"><span class="dot"></span>Actualizado 16/10</div></div>
+<p class="access-note">Público · sin cuenta</p><div class="daytabs" role="tablist" aria-label="Día del recorrido"><button class="day" data-day="15" role="tab" aria-selected="false"><strong>15 <span class="date-label">oct</span></strong><small>D · completado ✓</small></button><button class="day" data-day="16" role="tab" aria-selected="true"><strong>16 <span class="date-label">oct</span></strong><small>C primero · 5 paradas</small></button><button class="day" data-day="17" role="tab" aria-selected="false"><strong>17 <span class="date-label">oct</span></strong><small>Routers · 4 paradas</small></button></div>
+<section class="view active" id="view-map" aria-label="Mapa"><div class="map-layout"><div><div class="panel"><div class="panelhead"><div><h2 id="map-title">El recorrido del 16</h2><p>Tocá el pabellón para ver sus stands.</p></div><button class="round" id="map-fit" aria-label="Centrar recorrido"><svg class="icon"><use href="#i-pin"/></svg></button></div><div class="mapbar"><button class="chip active" id="map-mode-route">Ruta del día</button><button class="chip" id="map-mode-all">Todos</button><button class="chip" id="map-all-c">Todo C</button><select class="select" id="map-area" aria-label="Acercar a un área"><option value="">Todo el predio</option value="D">Área D</option><option value="C">Área C</option><option value="B">Área B</option><option value="A">Área A</option></select></div><div class="mapviewport" id="map-viewport"><svg id="map" role="img" aria-label="Plano de pabellones con recorrido y proveedores" viewBox="0 0 800 600"></svg><div class="mapzoom"><button id="zoom-in" aria-label="Acercar mapa">+</button><button id="zoom-out" aria-label="Alejar mapa">−</button><button id="zoom-fit" aria-label="Ver todo el predio">⌖</button></div></div><div class="legend"><span><i class="swatch"></i><span id="pin-legend">Números = orden de visita</span></span><span><i class="swatch c"></i>Pabellón y piso</span><span>Opcionales en la lista</span></div><div class="hall-buttons" id="hall-shortcuts"></div><p class="mapcaption">Pisos desplegados. Pines por pabellón; códigos exactos en cada ficha. Líneas = orden de visita, sin navegación interior.</p></div><p class="map-hint">Base: distribución oficial de la fase 1. <a id="official-map" href="https://365.cantonfair.org.cn/en-US/exhibition-hall-map?phase=first" target="_blank" rel="noopener">Abrir plano oficial ↗</a></p></div><aside class="panel sidepanel" id="hall-panel"><div class="panelhead"><div><p class="eyebrow" id="hall-area">Área D · piso 2</p><h2 id="hall-title">Pabellón 17.2</h2><p id="hall-subtitle">Stands del recorrido</p></div><button class="smallbtn" id="show-day-route">Ver ruta</button></div><div class="halllist" id="hall-list"></div></aside></div></section>
+<section class="view" id="view-route" aria-label="Recorrido"><div class="section-header"><div><p class="eyebrow" id="route-state"></p><h2 id="route-title"></h2><p id="route-subtitle"></p></div><button class="smallbtn" id="route-optional">Ocultar opcionales</button></div><div class="route-note" id="route-intro"></div><div class="progress"><span id="progress-bar"></span></div><p class="route-summary" id="route-summary"></p><div class="route-grid" id="route-list"></div><p class="nearby-note">Duraciones por visita; traslados aparte.</p></section>
+<section class="view" id="view-suppliers" aria-label="Todos los proveedores"><div class="section-header"><div><h2>Proveedores</h2><p>La ruta de hoy, o buscá en todo el directorio.</p></div></div><div class="search-wrap"><label class="searchbox"><svg class="icon"><use href="#i-search"/></svg><input id="search" type="search" placeholder="Marca, producto o stand" aria-label="Buscar proveedor o producto"></label><select id="supplier-area" class="select" aria-label="Filtrar área"><option value="">Área: todas</option><option>D</option><option>C</option><option>B</option><option>A</option></select></div><div class="filter-row" id="category-filters"></div><div class="filter-row"><button class="chip" id="only-new">Nuevos</button><button class="chip" id="only-saved">Favoritos</button><button class="chip" id="only-pending">Sin visitar</button></div><p class="results-meta" id="results-meta"></p><div class="supplier-grid" id="supplier-list"></div></section>
+<section class="view" id="view-ideas" aria-label="Ideas para Eternet"><div class="ideas-lead"><h2>Routers para revisar</h2><p>Opciones para después de C o para el 17.</p></div><div class="ideas-grid" id="ideas-list"></div><div class="tips"><h3>Qué confirmar</h3><details open><summary>Routers</summary><p>Modelo, WAN/LAN, PPPoE/VLAN, IPv6, gestión masiva y actualizaciones. En CPE celular: bandas, SIM libre, bridge y failover.</p></details><details><summary>Baterías y UPS</summary><p>Tensión, potencia, autonomía y compatibilidad del cargador/BMS. Pedir la cotización del sistema completo.</p></details><details><summary>Muestras</summary><p>BOM, MOQ, plazo, garantía y RMA por escrito.</p></details></div></section>
+</main>
+<nav class="bottomnav" aria-label="Navegación principal"><button class="navitem active" data-view="map"><svg class="icon"><use href="#i-map"/></svg>Mapa</button><button class="navitem" data-view="route"><svg class="icon"><use href="#i-route"/></svg>Recorrido</button><button class="navitem" data-view="suppliers"><svg class="icon"><use href="#i-grid"/></svg>Proveedores</button><button class="navitem" data-view="ideas"><svg class="icon"><use href="#i-bulb"/></svg>Routers</button></nav>
+<dialog id="supplier-dialog"><div id="supplier-modal"></div></dialog><dialog id="help-dialog"><div class="modal-top"><div><p class="eyebrow">Mapa de bolsillo</p><h2>Guardalo antes de entrar.</h2></div><button class="round" data-close="help-dialog" aria-label="Cerrar ayuda"><svg class="icon"><use href="#i-close"/></svg></button></div><div class="modal-body"><p>Acceso público, sin cuenta. Notas y favoritos se guardan en este teléfono.</p><div class="filetools"><button class="smallbtn primary" id="download-offline">Descargar HTML</button><a class="smallbtn" href="ruta-16-17.pdf" download>Descargar PDF</a><button class="smallbtn" id="export-notes">Exportar notas</button><label class="smallbtn" for="import-notes" style="cursor:pointer">Importar notas</label><input id="import-notes" type="file" accept="application/json,.json" hidden></div><p class="offline-state" id="offline-state"></p><p>Guardá el PDF para usarlo sin señal. El HTML incluye el mapa interactivo; algunos visores móviles requieren abrirlo en el navegador.</p><h3>Mapa y fuentes</h3><p>Stands del catálogo oficial, sesión 140, fase 1, o del anuncio del expositor. Fuentes en cada ficha.</p><p>Pines por pabellón y piso. La posición dentro del pasillo no está verificada. Las líneas indican el orden de visita.</p><p class="source-info">16/10/2026 · 16: C primero y D opcional. 17: routers. D del 15, completado según el equipo. Modelos y stock a confirmar.</p></div></dialog><div id="toast" class="toast" role="status" aria-live="polite"></div>
+<script id="app-data" type="application/json">{
+  "updated": "16 de octubre de 2026",
+  "edition": "140.ª · Fase 1",
+  "suppliers": [
+    {
+      "id": "2462254563",
+      "name": "Cloud Ridge",
+      "legalName": "CLOUD RIDGE LTD",
+      "category": "RAM y componentes",
+      "priority": "Esencial",
+      "day": 15,
+      "area": "D",
+      "hall": "17.2",
+      "stand": "17.2A01-02",
+      "allBooths": "17.2A01-02",
+      "notes": "Memory Module en catálogo.",
+      "source": "https://365.cantonfair.org.cn/en-US/shops?id=2462254563",
+      "evidence": "Catálogo oficial, sesión 140, fase 1",
+      "products": [
+        "Memory Module",
+        "keyboard",
+        "mouse"
+      ],
+      "group": "Cloud Ridge",
+      "new": false,
+      "bucket": "Cómputo",
+      "halls": [
+        "17.2"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "2458766275",
+      "name": "Huijue / HighJoule",
+      "legalName": "SHANGHAI HUIJUE TECHNOLOGIES GROUP CO., LTD",
+      "category": "Energía y gabinetes telecom",
+      "priority": "Esencial",
+      "day": 15,
+      "area": "D",
+      "hall": "17.2",
+      "stand": "17.2D25-26",
+      "allBooths": "17.2D25-26, 17.2E23-24, 14.2G15",
+      "notes": "Gabinete de energía para sitios remotos.",
+      "source": "https://365.cantonfair.org.cn/en-US/shops?id=2458766275",
+      "evidence": "Catálogo oficial, sesión 140, fase 1",
+      "products": [
+        "HuiJue Technology Group Foldable photovoltaic energy storage and power generation cabin",
+        "HuiJue Technology Group Integrated photovoltaic storage and charging system",
+        "Huijue Technology Group Base Station Energy Cabinet"
+      ],
+      "group": "Huijue / HighJoule",
+      "new": false,
+      "bucket": "Red e IoT",
+      "halls": [
+        "17.2",
+        "14.2"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "2445356692",
+      "name": "KingFast / Micro Innovation",
+      "legalName": "Shenzhen Micro Innovation Industry Co.Ltd.",
+      "category": "SSD, NVMe y RAM",
+      "priority": "Esencial",
+      "day": 15,
+      "area": "D",
+      "hall": "17.2",
+      "stand": "17.2E17-18",
+      "allBooths": "17.2E17-18",
+      "notes": "SSD M.2 y módulos de memoria.",
+      "source": "https://365.cantonfair.org.cn/en-US/shops?id=2445356692",
+      "evidence": "Catálogo oficial, sesión 140, fase 1",
+      "products": [
+        "Jinsu F6M (128GB)",
+        "KingSpec KF003 (240GB)",
+        "Kingfast KFM.2 (512GB)"
+      ],
+      "group": "KingFast / Micro Innovation",
+      "new": false,
+      "bucket": "Cómputo",
+      "halls": [
+        "17.2"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "2370339229",
+      "name": "Heentai Semiconductor",
+      "legalName": "Sichuan Heentai Semiconductor Co., Ltd.",
+      "category": "SSD y RAM",
+      "priority": "Esencial",
+      "day": 15,
+      "area": "D",
+      "hall": "17.2",
+      "stand": "17.2G37-40",
+      "allBooths": "17.2G37-40",
+      "notes": "Perfil oficial declara SSD y módulos de memoria.",
+      "source": "https://365.cantonfair.org.cn/en-US/shops?id=2370339229",
+      "evidence": "Catálogo oficial, sesión 140, fase 1",
+      "products": [
+        "Dual interface fingerprint encryption solid-state USB drive",
+        "Dual interface solid-state USB drive"
+      ],
+      "group": "Heentai Semiconductor",
+      "new": false,
+      "bucket": "Cómputo",
+      "halls": [
+        "17.2"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "2412570608",
+      "name": "Beijing Guangtian Runze",
+      "legalName": "Beijing Guangtian Runze Technology Co., Ltd",
+      "category": "Servidores y storage",
+      "priority": "Esencial",
+      "day": 15,
+      "area": "D",
+      "hall": "17.2",
+      "stand": "17.2G65-68",
+      "allBooths": "17.2G65-68",
+      "notes": "Catálogo: network storage server y GPU/AI server.",
+      "source": "https://365.cantonfair.org.cn/en-US/shops?id=2412570608",
+      "evidence": "Catálogo oficial, sesión 140, fase 1",
+      "products": [
+        "Server",
+        "server"
+      ],
+      "group": "Beijing Guangtian Runze",
+      "new": false,
+      "bucket": "Cómputo",
+      "halls": [
+        "17.2"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "2386743368",
+      "name": "ELSKY",
+      "legalName": "SHENZHEN ELSKY TECHNOLOGY CO.,LTD",
+      "category": "Mini PCs e industrial PCs",
+      "priority": "Esencial",
+      "day": 15,
+      "area": "D",
+      "hall": "17.2",
+      "stand": "17.2J37-38",
+      "allBooths": "17.2J37-38",
+      "notes": "Mini PCs, motherboards e IPC.",
+      "source": "https://365.cantonfair.org.cn/en-US/shops?id=2386743368",
+      "evidence": "Catálogo oficial, sesión 140, fase 1",
+      "products": [
+        "ELSKY 4-inch Motherboard M11GSE Supports Intel CPU Tiger Lake 11th Gen CORE i3 i5 i7",
+        "ELSKY Cheap Desktop Mini PC HD4006 Supports Intel CPU 2nd-5th Generation CORE i3 i5 i7",
+        "ELSKY Desktop Mini PC K8P Supports Intel CPU 1151-pin i3 i5 i7 Coffee Lake 8th-9th Gen platforms",
+        "ELSKY Desktop Mini PC M780 Support Intel CPU 6th Gen Skylake 7th Gen Kaby Lake Celeron Core i3 i5 i7",
+        "ELSKY Desktop NANO PC N67 Supports Intel CPU 6th Gen Skylake 7th Gen Kaby Lake Celeron CORE i3 i5 i7",
+        "ELSKY Fanless Industrial PC IPC6900 Supports Intel CPU 8th-12th Generation CORE i3 i5 i7",
+        "ELSKY Fanless Industrial PC IPC6910-P Supports Intel CPU 12th-14th Generation CORE i3 i5 i7 i9",
+        "ELSKY Industrial PC IPC400U Supports Intel CPU 12th-14th Generation CORE i3 i5 i7 i9",
+        "ELSKY Low Power 3.5-inch Motherboard M415SE Supports Intel Gemini Lake Refresh J and N series CPUs",
+        "ELSKY Low Power Fanless Industrial PC IPC6000 Supports Intel CPU Celeron 2nd-10th Gen CORE i3 i5 i7",
+        "ELSKY Low Power Industrial Mini PC NANO19 Supports Intel CPU Celeron J1800 J1900 Pentium J2900",
+        "ELSKY MINI PC OPS-MX8900 Support Intel CPU Coffee Lake 8th-9th Gen Platform 1151pin CORE i3 i5 i7 i9",
+        "ELSKY Mini Desktop NUC PC NUC67 Supports Intel CPU 6th 7th 8th 10th Generation Celeron CORE i3 i5 i7",
+        "ELSKY Mini PC HD4001 Supports Intel CPU 2nd-13th Generation CORE i3 i5 i7",
+        "ELSKY Mini-ITX Motherboard QM10U Supports Intel CPU Comet Lake 10th Generation CORE i3 i5 i7",
+        "ELSKY Mini-ITX Motherboard QM11U Supports Intel CPU Tiger Lake 11th Generation CORE i3 i5 i7",
+        "ELSKY Mini-ITX Motherboard QM12U support CPU Alder Lake 12th Gen CORE i3 i5 i7",
+        "ELSKY Mini-ITX Motherboard QM14U support CPU Intel Meteor Lake 14th Gen Ultra 5 Ultra 7 Ultra 9  U/H",
+        "ELSKY Mini-ITX Motherboard QM15U support CPU Intel Arrow Lake 15th Gen Ultra 5 Ultra 7 Ultra 9  U/H",
+        "ELSKY Mini-ITX Motherboard QM6100 Supports Intel Independent CPU Alder Lake 12th Gen CORE i3 i5 i7",
+        "ELSKY NANO Motherboard NANO10U Supports Intel CPU Comet Lake 10th Gen CORE i3 i5 i7",
+        "ELSKY NUC Motherboard NUC10U Supports Intel CPU Comet Lake 10th Gen CORE i3 i5 i7",
+        "ELSKY OPS MINI PC OPS-10U Supports Intel CPU Comet Lake 10th generation CORE i3 i5 i7",
+        "ELSKY OPS MINI PC OPS-11U Supports Intel CPU Tiger Lake 11th generation CORE i3 i5 i7",
+        "ELSKY OPS MINI PC OPS-H510 Supports Intel Independent CPU Rocket Lake 11th generation CORE i3 i5 i7",
+        "ELSKY OPS-C MINI PC OPS-11H Supports Intel CPU Tiger Lake 11th generation CORE i3 i5 i7",
+        "ELSKY industrial fanless motherboard M612F support CPU Celeron Pentium Elkhart Lake J/N series"
+      ],
+      "group": "ELSKY",
+      "new": false,
+      "bucket": "Cómputo",
+      "halls": [
+        "17.2"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "1396706775",
+      "name": "FINEN",
+      "legalName": "Beijing Finen Electronic Equipment Co.,Ltd",
+      "category": "Racks, PDU y ODF",
+      "priority": "Esencial",
+      "day": 15,
+      "area": "D",
+      "hall": "18.2",
+      "stand": "18.2K15-16",
+      "allBooths": "16.3C05, 18.2K15-16, 18.2J33-34, 15.2C41-42",
+      "notes": "Racks, bandejas y PDU. Confirmar si el modelo permite SNMP y conmutación individual de tomas.",
+      "source": "https://365.cantonfair.org.cn/en-US/shops?id=1396706775",
+      "evidence": "Catálogo oficial, sesión 140, fase 1",
+      "products": [
+        "fiber optic patch panel",
+        "network cabinet",
+        "power distributor unit",
+        "server cabinet",
+        "wall mount cabinet"
+      ],
+      "group": "FINEN",
+      "new": false,
+      "bucket": "Red e IoT",
+      "halls": [
+        "16.3",
+        "18.2",
+        "15.2"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "2473260832",
+      "name": "Ulefone",
+      "legalName": "SHENZHEN ULEFONE TECHNOLOGY CO., LTD",
+      "category": "Mini PCs y herramientas de campo",
+      "priority": "Esencial",
+      "day": 15,
+      "area": "D",
+      "hall": "18.2",
+      "stand": "18.2K24",
+      "allBooths": "18.2K24",
+      "notes": "Anuncia nueva línea Mini PC.",
+      "source": "https://365.cantonfair.org.cn/en-US/shops?id=2473260832",
+      "evidence": "Catálogo oficial, sesión 140, fase 1",
+      "products": [
+        "Armor Pad 4 Ultra Thermal",
+        "RugOne Xsnap 7 Pro",
+        "Tab A9 Pro Kids"
+      ],
+      "group": "Ulefone",
+      "new": false,
+      "bucket": "Cómputo",
+      "halls": [
+        "18.2"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "2566785642",
+      "name": "ShareVDI",
+      "legalName": "Shenzhen Sharevdi Technology Co.,Ltd",
+      "category": "Mini PCs y edge computing",
+      "priority": "Esencial",
+      "day": 15,
+      "area": "D",
+      "hall": "20.1",
+      "stand": "20.1E06",
+      "allBooths": "20.1E06",
+      "notes": "Mini PCs fanless, firewall y terminal AI edge.",
+      "source": "https://365.cantonfair.org.cn/en-US/shops?id=2566785642",
+      "evidence": "Catálogo oficial, sesión 140, fase 1",
+      "products": [
+        "Fanless Industrial Edge Computing Mini PC",
+        "G4C Industrial ARM Controller",
+        "Inter N150 Fanless Firewall Industrial Mini PC",
+        "Pentium 7505 Fanless Embedded Industrial Mini PC"
+      ],
+      "group": "ShareVDI",
+      "new": false,
+      "bucket": "Cómputo",
+      "halls": [
+        "20.1"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "2360138915",
+      "name": "NPP Guangdong",
+      "legalName": "GuangDong NPP New Energy CO.,LTD",
+      "category": "Baterías LFP y UPS",
+      "priority": "Alternativa",
+      "day": 15,
+      "area": "D",
+      "hall": "17.2",
+      "stand": "17.2K08",
+      "allBooths": "17.2K08",
+      "notes": "Baterías de litio y VRLA.",
+      "source": "https://365.cantonfair.org.cn/en-US/shops?id=2360138915",
+      "evidence": "Catálogo oficial, sesión 140, fase 1",
+      "products": [
+        "48V200AH LiFePO4",
+        "48V300AH Lithium Battery",
+        "RACK MOUNTED LITHIUM BATTERY"
+      ],
+      "group": "NPP",
+      "new": false,
+      "bucket": "Energía",
+      "halls": [
+        "17.2"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "web-tleagle-teliang",
+      "name": "TLEAGLE / Teliang",
+      "legalName": "TLEAGLE / Teliang",
+      "category": "Energía portátil para cuadrillas",
+      "priority": "Alternativa",
+      "day": 15,
+      "area": "D",
+      "hall": "18.2",
+      "stand": "18.2C47-48",
+      "allBooths": "18.2C47-48",
+      "notes": "Power stations.",
+      "source": "https://www.tleaglepower.com/",
+      "evidence": "Anuncio del expositor para octubre de 2026",
+      "products": [],
+      "group": "TLEAGLE / Teliang",
+      "new": false,
+      "bucket": "Energía",
+      "halls": [
+        "18.2"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "2480770708",
+      "name": "Shanghai Huan Ye",
+      "legalName": "Shanghai Huan Ye I & E Co.,Ltd",
+      "category": "Mini PCs",
+      "priority": "Alternativa",
+      "day": 15,
+      "area": "D",
+      "hall": "18.2",
+      "stand": "18.2E27-29",
+      "allBooths": "18.2E27-29",
+      "notes": "Producto minipc en catálogo, ficha escasa.",
+      "source": "https://365.cantonfair.org.cn/en-US/shops?id=2480770708",
+      "evidence": "Catálogo oficial, sesión 140, fase 1",
+      "products": [
+        "minipc"
+      ],
+      "group": "Shanghai Huan Ye",
+      "new": false,
+      "bucket": "Cómputo",
+      "halls": [
+        "18.2"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "web-owon",
+      "name": "OWON",
+      "legalName": "OWON",
+      "category": "Medición remota de energía",
+      "priority": "Complemento",
+      "day": 15,
+      "area": "D",
+      "hall": "17.2",
+      "stand": "17.2M21",
+      "allBooths": "17.2M21",
+      "notes": "Medidores PC471 Ethernet/WiFi.",
+      "source": "https://www.owon-iot.com/blog/canton-fair-hktdc-2026/",
+      "evidence": "Anuncio del expositor para octubre de 2026",
+      "products": [],
+      "group": "OWON",
+      "new": false,
+      "bucket": "Energía",
+      "halls": [
+        "17.2"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "0888448517",
+      "name": "Hangzhou Xingfa",
+      "legalName": "HANGZHOU XINGFA TECHNOLOGY CO.,LTD",
+      "category": "Fibra y accesorios FTTH",
+      "priority": "Complemento",
+      "day": 15,
+      "area": "D",
+      "hall": "18.2",
+      "stand": "18.2H21-22",
+      "allBooths": "18.2H21-22",
+      "notes": "Cajas, pigtails y patch cords.",
+      "source": "https://365.cantonfair.org.cn/en-US/shops?id=0888448517",
+      "evidence": "Catálogo oficial, sesión 140, fase 1",
+      "products": [
+        "Bundle series pigtail FIBER OPTICAL CABLE",
+        "Distribution Box FIBER OPTIC ACCESSORISE",
+        "Fiber Optic Patch Cord FIBER OPTICAL CABLE"
+      ],
+      "group": "Hangzhou Xingfa",
+      "new": false,
+      "bucket": "Red e IoT",
+      "halls": [
+        "18.2"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "2382235519",
+      "name": "Zhejiang Linquick",
+      "legalName": "ZHEJIANG LINQUICK TECHNOLOGY CO.,LTD",
+      "category": "Fibra óptica",
+      "priority": "Complemento",
+      "day": 15,
+      "area": "D",
+      "hall": "18.2",
+      "stand": "18.2H39-40",
+      "allBooths": "18.2H39-40",
+      "notes": "El catálogo contiene denominación G675A2: pedir ficha ITU real y certificado antes de interpretar el tipo.",
+      "source": "https://365.cantonfair.org.cn/en-US/shops?id=2382235519",
+      "evidence": "Catálogo oficial, sesión 140, fase 1",
+      "products": [
+        "G652D FIBER",
+        "G675A2 FIBER"
+      ],
+      "group": "Zhejiang Linquick",
+      "new": false,
+      "bucket": "Red e IoT",
+      "halls": [
+        "18.2"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "1440813602",
+      "name": "Signal Fire",
+      "legalName": "SIGNAL FIRE TECHNOLOGY CO.,LTD.",
+      "category": "OTDR y fusionadoras",
+      "priority": "Complemento",
+      "day": 15,
+      "area": "D",
+      "hall": "18.2",
+      "stand": "18.2J15-16",
+      "allBooths": "18.2J15-16",
+      "notes": "Comparar OTDR y fusionadora con muestra real de fibra, conectores APC y bobinas de lanzamiento/recepción.",
+      "source": "https://365.cantonfair.org.cn/en-US/shops?id=1440813602",
+      "evidence": "Catálogo oficial, sesión 140, fase 1",
+      "products": [
+        "Fiber cleaver",
+        "OTDR",
+        "Signal Fire optical fiber fusion splicer"
+      ],
+      "group": "Signal Fire",
+      "new": false,
+      "bucket": "Instrumentos",
+      "halls": [
+        "18.2"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "1815649269",
+      "name": "Softel",
+      "legalName": "HANGZHOU SOFTEL OPTIC CO.,LTD",
+      "category": "GPON/XPON y red óptica",
+      "priority": "Complemento",
+      "day": 15,
+      "area": "D",
+      "hall": "18.2",
+      "stand": "18.2L22",
+      "allBooths": "18.2L22",
+      "notes": "OLT y ONU/ONT XPON, incluidos modelos WiFi 6. Probar OMCI, VLAN y gestión con su OLT.",
+      "source": "https://365.cantonfair.org.cn/en-US/shops?id=1815649269",
+      "evidence": "Catálogo oficial, sesión 140, fase 1",
+      "products": [
+        "1550nm External Modulation Fiber Optical Transmitter 2 Outputs",
+        "32 Ports Optic Fiber Amplifier 1550nm CWDM EDFA for CATV, GPON",
+        "FTTH 4*GE+1*POTS+1*USB3.0+WiFi 6 ONU XPON ONT"
+      ],
+      "group": "Softel",
+      "new": false,
+      "bucket": "Red e IoT",
+      "halls": [
+        "18.2"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "1944001535",
+      "name": "Hangzhou Jianye",
+      "legalName": "HANGZHOU JIANYE CABLE CO., LTD",
+      "category": "Cable óptico FTTH",
+      "priority": "Complemento",
+      "day": 15,
+      "area": "D",
+      "hall": "18.2",
+      "stand": "18.2L24",
+      "allBooths": "18.2L24",
+      "notes": "Fibra indoor/FTTH.",
+      "source": "https://365.cantonfair.org.cn/en-US/shops?id=1944001535",
+      "evidence": "Catálogo oficial, sesión 140, fase 1",
+      "products": [
+        "FTTH Indoor fiber optic cable"
+      ],
+      "group": "Hangzhou Jianye",
+      "new": false,
+      "bucket": "Red e IoT",
+      "halls": [
+        "18.2"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "2526082319",
+      "name": "Tianjin Xingrui",
+      "legalName": "Tianjin Xingrui Communication Equipment Co., Ltd",
+      "category": "Gabinetes telecom exteriores",
+      "priority": "Complemento",
+      "day": 15,
+      "area": "D",
+      "hall": "18.2",
+      "stand": "18.2L26",
+      "allBooths": "18.2L26",
+      "notes": "Gabinetes outdoor, ODF, rectificadores y refrigeración.",
+      "source": "https://365.cantonfair.org.cn/en-US/shops?id=2526082319",
+      "evidence": "Catálogo oficial, sesión 140, fase 1",
+      "products": [
+        "Communication base station user outdoor cabinet"
+      ],
+      "group": "Tianjin Xingrui",
+      "new": false,
+      "bucket": "Red e IoT",
+      "halls": [
+        "18.2"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "2431659589",
+      "name": "Zhuhai Surelink",
+      "legalName": "ZHUHAI SURELINK COMMUNICATION CABLE CO.,LTD.",
+      "category": "Fibra, conectores y cable",
+      "priority": "Complemento",
+      "day": 15,
+      "area": "D",
+      "hall": "18.2",
+      "stand": "18.2L32",
+      "allBooths": "18.2L32",
+      "notes": "Cable y conectores rápidos.",
+      "source": "https://365.cantonfair.org.cn/en-US/shops?id=2431659589",
+      "evidence": "Catálogo oficial, sesión 140, fase 1",
+      "products": [
+        "450mm 600mm 800mm Data Center Cabinet Glass Door Network Cabinet 网络机柜",
+        "ESC250D SC UPC APC Fast connector adapter Connector FTTH Drop Cable Conector rápido quick connector",
+        "Gabinete de red 450mm 600mm 800mm Data Center Cabinet Glass Door Network Cabinet 网络机柜",
+        "Manufacturer aerial fiber optical cable OPGW g652d single mode cable opgw optic fibre cable opgw",
+        "SC FC LC ST UPC Fast Fiber Optic Connector for FTTH Drop Cable Conector rápido quick connector",
+        "Wall Mount or Standing Network Cabinet Communication Data Center Telecom Rack Cabinet",
+        "internet cable rj45 computer data patch cable cat5e cat6 cat6a cat7 cat8",
+        "lan cable internet cable rj45 computer data patch cable cat5e cat6 cat6a cat7 cat8"
+      ],
+      "group": "Zhuhai Surelink",
+      "new": false,
+      "bucket": "Red e IoT",
+      "halls": [
+        "18.2"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "2328152187",
+      "name": "Zhuhai Zhanquan",
+      "legalName": "Zhuhai Zhanquan Electronic Technology Co.,Ltd",
+      "category": "OTDR e instrumental de fibra",
+      "priority": "Complemento",
+      "day": 15,
+      "area": "D",
+      "hall": "18.2",
+      "stand": "18.2L36",
+      "allBooths": "16.3D13, 18.2L36",
+      "notes": "Segunda cotización de OTDR.",
+      "source": "https://365.cantonfair.org.cn/en-US/shops?id=2328152187",
+      "evidence": "Catálogo oficial, sesión 140, fase 1",
+      "products": [
+        "OTDR"
+      ],
+      "group": "Zhuhai Zhanquan",
+      "new": false,
+      "bucket": "Red e IoT",
+      "halls": [
+        "16.3",
+        "18.2"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "1725138090",
+      "name": "Shandong Huaxin",
+      "legalName": "SHANDONG HUAXIN COMMUNICATION TECHNOLOGY CO.,LTD",
+      "category": "Drop óptico",
+      "priority": "Complemento",
+      "day": 15,
+      "area": "D",
+      "hall": "18.2",
+      "stand": "18.2M14",
+      "allBooths": "18.2M14",
+      "notes": "Cable drop.",
+      "source": "https://365.cantonfair.org.cn/en-US/shops?id=1725138090",
+      "evidence": "Catálogo oficial, sesión 140, fase 1",
+      "products": [
+        "fiber optic drop cable"
+      ],
+      "group": "Shandong Huaxin",
+      "new": false,
+      "bucket": "Red e IoT",
+      "halls": [
+        "18.2"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "web-freshliance",
+      "name": "Freshliance",
+      "legalName": "Freshliance",
+      "category": "Sensores para POP y sala de servidores",
+      "priority": "Complemento",
+      "day": 15,
+      "area": "D",
+      "hall": "20.1",
+      "stand": "20.1C36-37",
+      "allBooths": "20.1C36-37",
+      "notes": "Monitoreo de temperatura/humedad.",
+      "source": "https://cn.linkedin.com/company/freshliance-electronics-co-ltd",
+      "evidence": "Anuncio del expositor para octubre de 2026",
+      "products": [],
+      "group": "Freshliance",
+      "new": false,
+      "bucket": "Cómputo",
+      "halls": [
+        "20.1"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "web-rpt-power-renergy",
+      "name": "RPT POWER / Renergy",
+      "legalName": "RPT POWER / Renergy",
+      "category": "LiFePO4 para rack y UPS",
+      "priority": "Esencial",
+      "day": 16,
+      "area": "C",
+      "hall": "15.2",
+      "stand": "15.2B06-07",
+      "allBooths": "15.2B06-07",
+      "notes": "Baterías LFP de rack. Confirmar BMS, tensión, corriente de descarga y garantía.",
+      "source": "https://www.rpt-power.com/",
+      "evidence": "Anuncio del expositor para octubre de 2026",
+      "products": [],
+      "group": "RPT POWER / Renergy",
+      "new": false,
+      "bucket": "Red e IoT",
+      "halls": [
+        "15.2"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "0998375054",
+      "name": "INVT",
+      "legalName": "Shenzhen INVT Electric CO., LTD.",
+      "category": "UPS y almacenamiento de energía",
+      "priority": "Esencial",
+      "day": 16,
+      "area": "C",
+      "hall": "15.2",
+      "stand": "15.2B34-36",
+      "allBooths": "15.2C08-10, 15.2B34-36",
+      "notes": "UPS y almacenamiento de energía. Pedir potencia y autonomía para la carga real de Eternet.",
+      "source": "https://365.cantonfair.org.cn/en-US/shops?id=0998375054",
+      "evidence": "Catálogo oficial, sesión 140, fase 1",
+      "products": [
+        "GD270 Series VFD for Fan and Pump",
+        "GD350 Series High-performance Drives",
+        "XD3-6kW single phase hybrid solar inverter"
+      ],
+      "group": "INVT",
+      "new": false,
+      "bucket": "Energía",
+      "halls": [
+        "15.2"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "2350236101",
+      "name": "Yuyang New Energy",
+      "legalName": "Guangdong Yuyang New Energy Co., LTD",
+      "category": "Baterías rack de litio",
+      "priority": "Esencial",
+      "day": 16,
+      "area": "C",
+      "hall": "15.2",
+      "stand": "15.2B40-42",
+      "allBooths": "15.2B40-42",
+      "notes": "Pack rack para ESS.",
+      "source": "https://365.cantonfair.org.cn/en-US/shops?id=2350236101",
+      "evidence": "Catálogo oficial, sesión 140, fase 1",
+      "products": [
+        "Power wall Battery",
+        "Rack-mounted lithium battery module"
+      ],
+      "group": "Yuyang New Energy",
+      "new": false,
+      "bucket": "Red e IoT",
+      "halls": [
+        "15.2"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "0712908360",
+      "name": "Champion / Zhicheng",
+      "legalName": "Guangdong Zhicheng Champion Group Co.,Ltd.",
+      "category": "UPS y baterías",
+      "priority": "Esencial",
+      "day": 16,
+      "area": "C",
+      "hall": "15.2",
+      "stand": "15.2F01-02",
+      "allBooths": "15.2F01-02, 15.2E43-44",
+      "notes": "UPS y baterías VRLA/LFP.",
+      "source": "https://365.cantonfair.org.cn/en-US/shops?id=0712908360",
+      "evidence": "Catálogo oficial, sesión 140, fase 1",
+      "products": [
+        "Champion 12V150AH VRLA Battery|Solar Battery|AGM Battery|UPS Battery|SMF Battery|Telecom Battery",
+        "Champion 12V180AH DeepCycle Battery|Solar Battery|VRLA Battery|AGM Battery|SMF Battery|UPS Battery",
+        "Champion 12V200AH GEL Battery|Solar Battery|SMF Battery|DeepCycle battery",
+        "Champion 12V7AH VRLA Battery\\Solar Battery\\AGM Battery\\UPS Battery\\SMF Battery\\Security battery",
+        "Champion 2V1000AH DeepCycle Battery|Solar Battery|VRLA Battery|AGM Battery|SMF Battery|UPS Battery",
+        "Champion 48V100Ah LiFePO4 Lithium Iron Phosphate battery for Solar",
+        "LiFePO4 Battery /LFP 12V50AH",
+        "LiFePO4 Battery/LFP48V10AH",
+        "champion 25.6v 100ah 200ah lead acid replacement lithium battery lifepo4",
+        "champion lithium ion battery 51.2V 100AH 200AH  lifepo4 batteries",
+        "champion stacked battery system lithium battery 51.2V"
+      ],
+      "group": "Champion / Zhicheng",
+      "new": false,
+      "bucket": "Energía",
+      "halls": [
+        "15.2"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "1657627001",
+      "name": "KIJO / Jingjiu",
+      "legalName": "Jiangxi Jingjiu Power Science & Technology Co.Ltd",
+      "category": "LiFePO4 para telecom y UPS",
+      "priority": "Esencial",
+      "day": 16,
+      "area": "C",
+      "hall": "15.2",
+      "stand": "15.2G34-35",
+      "allBooths": "15.2G34-35",
+      "notes": "Baterías para telecom y UPS. Comparar el pack LFP completo y su compatibilidad con el cargador.",
+      "source": "https://365.cantonfair.org.cn/en-US/shops?id=1657627001",
+      "evidence": "Catálogo oficial, sesión 140, fase 1",
+      "products": [
+        "LV Rack-mounted Power Supply with Smart"
+      ],
+      "group": "KIJO / Jingjiu",
+      "new": false,
+      "bucket": "Energía",
+      "halls": [
+        "15.2"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "1688031886",
+      "name": "SANTAK",
+      "legalName": "SANTAK ELECTRONIC (SHENZHEN) CO.,LTD.",
+      "category": "UPS y PDU",
+      "priority": "Esencial",
+      "day": 16,
+      "area": "C",
+      "hall": "15.2",
+      "stand": "15.2I04",
+      "allBooths": "15.2I04",
+      "notes": "UPS para infraestructura y PDU.",
+      "source": "https://365.cantonfair.org.cn/en-US/shops?id=1688031886",
+      "evidence": "Catálogo oficial, sesión 140, fase 1",
+      "products": [
+        "3 phase UPS，UPS, Online UPS , 3C3 PRO 60KS, Uninterruptible Power Supply, Santak UPS(复制)",
+        "Line-interacitve UPS,  UPS for computer, 1200VA, Santak UPS, Uninterruptible Power Supply",
+        "Rack UPS, Rack Mounted UPS,  Online UPS 3KVA, Uninterruptible Power Supply,Santak UPS",
+        "SANTAK PDU Power Distribution Unit for SANTAK UPS Power Supply",
+        "UPS Line-interactive UPS 2000va, Uninterruptible Power Supply, UPS for Bank ATM, Santak UPS",
+        "UPS, Rack UPS, Online UPS 3KVA, Rack Mounted UPS, Uninterruptible Power Supply, Santak UPS"
+      ],
+      "group": "SANTAK",
+      "new": false,
+      "bucket": "Red e IoT",
+      "halls": [
+        "15.2"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "web-lithtech",
+      "name": "Lithtech",
+      "legalName": "Lithtech",
+      "category": "LiFePO4 y ESS",
+      "priority": "Esencial",
+      "day": 16,
+      "area": "C",
+      "hall": "15.2",
+      "stand": "15.2I05",
+      "allBooths": "15.2I05",
+      "notes": "Baterías y ESS.",
+      "source": "https://cn.linkedin.com/company/lithtech-energy",
+      "evidence": "Anuncio del expositor para octubre de 2026",
+      "products": [],
+      "group": "Lithtech",
+      "new": false,
+      "bucket": "Energía",
+      "halls": [
+        "15.2"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "2374552174",
+      "name": "Dawnice",
+      "legalName": "Yichun Dawnice Manufacture and Trade Co., Ltd",
+      "category": "Baterías LiFePO4 de rack",
+      "priority": "Esencial",
+      "day": 16,
+      "area": "C",
+      "hall": "15.2",
+      "stand": "15.2J07",
+      "allBooths": "15.2J07",
+      "notes": "Publica pack server rack 48 V.",
+      "source": "https://365.cantonfair.org.cn/en-US/shops?id=2374552174",
+      "evidence": "Catálogo oficial, sesión 140, fase 1",
+      "products": [
+        "Complete 100kw 200kw 50kw Solar Power Modular Battery Storage Lifepo4 ESS Battery Industrial Power",
+        "Dawnice 100kwh Solar System 50kw Outdoor Storage Battery Cabinet for Energy Storage Solutions",
+        "Dawnice All in One 125kW 265kWh Smart C&I Lithium Battery Industrial Energy Storage System Container",
+        "Energy Storage Stackable Battery 5kw 20Kwh Rack Mounted Battery 48v Battery Pack For Solar System",
+        "HV Lithium Battery 100 KWh 172 KWh Lithium Battery Rack Mounted Solar Lifepo4 Energy Storage System",
+        "Lifepo4 Battery 51.2V 300Ah 200Ah 10kWh Lithium Battery16KWH Wall-Mounted Home Energy Storage System",
+        "Solar Energy Storage Lifepo4 48v 100ah Server Rack 10 Kwh Lithium Battery"
+      ],
+      "group": "Dawnice",
+      "new": false,
+      "bucket": "Red e IoT",
+      "halls": [
+        "15.2"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "web-comking",
+      "name": "COMKING",
+      "legalName": "COMKING",
+      "category": "ESS y distribución eléctrica",
+      "priority": "Alternativa",
+      "day": 16,
+      "area": "C",
+      "hall": "15.2",
+      "stand": "15.2A18-20",
+      "allBooths": "15.2A18-20",
+      "notes": "Integración de energía; confirmar escala útil para POP.",
+      "source": "https://www.comkingpower.com/new/comking-140th-canton-fair-power-distribution-new-energy-solutions.html",
+      "evidence": "Anuncio del expositor para octubre de 2026",
+      "products": [],
+      "group": "COMKING",
+      "new": false,
+      "bucket": "Energía",
+      "halls": [
+        "15.2"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "1404012936",
+      "name": "Blue Carbon",
+      "legalName": "Blue carbon Technology Inc.",
+      "category": "Baterías y solar",
+      "priority": "Alternativa",
+      "day": 16,
+      "area": "C",
+      "hall": "15.2",
+      "stand": "15.2B08-09",
+      "allBooths": "16.4F08-11, 16.4E34-37, 15.2B08-09, 15.2A14-15",
+      "notes": "Comparar LFP y sistema solar de nodo remoto.",
+      "source": "https://365.cantonfair.org.cn/en-US/shops?id=1404012936",
+      "evidence": "Catálogo oficial, sesión 140, fase 1",
+      "products": [
+        "Solar Energy System LiFePO4 Battery Pack For Home"
+      ],
+      "group": "Blue Carbon",
+      "new": false,
+      "bucket": "Energía",
+      "halls": [
+        "16.4",
+        "15.2"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "2436154932",
+      "name": "Zlion Energy",
+      "legalName": "Liaoning Zlion Energy Co., Ltd. ",
+      "category": "Packs de litio",
+      "priority": "Alternativa",
+      "day": 16,
+      "area": "C",
+      "hall": "15.2",
+      "stand": "15.2D04-05",
+      "allBooths": "15.2D04-05",
+      "notes": "Baterías de fosfato de litio.",
+      "source": "https://365.cantonfair.org.cn/en-US/shops?id=2436154932",
+      "evidence": "Catálogo oficial, sesión 140, fase 1",
+      "products": [
+        "12V RV Battery"
+      ],
+      "group": "Zlion Energy",
+      "new": false,
+      "bucket": "Energía",
+      "halls": [
+        "15.2"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "2358039879",
+      "name": "Safecloud",
+      "legalName": "HENAN SAFECLOUD ENERGY INC",
+      "category": "LiFePO4 y reemplazo de plomo",
+      "priority": "Alternativa",
+      "day": 16,
+      "area": "C",
+      "hall": "15.2",
+      "stand": "15.2E36-37",
+      "allBooths": "15.2E36-37",
+      "notes": "Packs LFP y reemplazos de plomo.",
+      "source": "https://365.cantonfair.org.cn/en-US/shops?id=2358039879",
+      "evidence": "Catálogo oficial, sesión 140, fase 1",
+      "products": [
+        "12V 100Ah lithium iron battery power lithium battery",
+        "12V 200Ah lithium iron battery power lithium battery",
+        "Custom Home energy storage system-Wall mounted LiFePO4 LFP Battery Pack FT-48V51.2V100Ah 5kw",
+        "Custom Safecloud 51.2v 48v 280ah 300ah satngding up 10kwh 15kwh Lithium Battery Storage LiFePO4"
+      ],
+      "group": "Safecloud",
+      "new": false,
+      "bucket": "Energía",
+      "halls": [
+        "15.2"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "2335238369",
+      "name": "Frey Battery",
+      "legalName": "Jiangsu Frey Battery Technology Co.,Ltd",
+      "category": "LiFePO4, BMS y sistemas",
+      "priority": "Alternativa",
+      "day": 16,
+      "area": "C",
+      "hall": "15.2",
+      "stand": "15.2H36",
+      "allBooths": "15.2H36",
+      "notes": "Celdas/packs LFP y BMS.",
+      "source": "https://365.cantonfair.org.cn/en-US/shops?id=2335238369",
+      "evidence": "Catálogo oficial, sesión 140, fase 1",
+      "products": [
+        "Golf cart lithium battery",
+        "Lithium iron phosphate power battery module"
+      ],
+      "group": "Frey Battery",
+      "new": false,
+      "bucket": "Energía",
+      "halls": [
+        "15.2"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "2364951391",
+      "name": "EVPS Anhui",
+      "legalName": "EVPS Anhui Power Battery Co., Ltd",
+      "category": "Baterías rack",
+      "priority": "Alternativa",
+      "day": 16,
+      "area": "C",
+      "hall": "15.2",
+      "stand": "15.2I39",
+      "allBooths": "15.2I39",
+      "notes": "Baterías de litio.",
+      "source": "https://365.cantonfair.org.cn/en-US/shops?id=2364951391",
+      "evidence": "Catálogo oficial, sesión 140, fase 1",
+      "products": [
+        "R24100 Energy Storage Lithium Battery",
+        "R51100 Energy Storage Battery"
+      ],
+      "group": "EVPS Anhui",
+      "new": false,
+      "bucket": "Red e IoT",
+      "halls": [
+        "15.2"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "1513323834",
+      "name": "SCU / SICON",
+      "legalName": "SICON Chat Union Electric Co., Ltd.",
+      "category": "Energía para data centers",
+      "priority": "Alternativa",
+      "day": 16,
+      "area": "C",
+      "hall": "15.2",
+      "stand": "15.2I44",
+      "allBooths": "8.1F16, 15.2I44",
+      "notes": "Infraestructura de data center y ESS.",
+      "source": "https://365.cantonfair.org.cn/en-US/shops?id=1513323834",
+      "evidence": "Catálogo oficial, sesión 140, fase 1",
+      "products": [],
+      "group": "SCU / SICON",
+      "new": false,
+      "bucket": "Energía",
+      "halls": [
+        "8.1",
+        "15.2"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "2352830068",
+      "name": "Tai An Tai Energy",
+      "legalName": "TAI AN TAI ENERGY CO.,LTD.",
+      "category": "Baterías rack y solar",
+      "priority": "Alternativa",
+      "day": 16,
+      "area": "C",
+      "hall": "15.2",
+      "stand": "15.2J04",
+      "allBooths": "15.2J04",
+      "notes": "Sistemas fotovoltaicos y rack battery.",
+      "source": "https://365.cantonfair.org.cn/en-US/shops?id=2352830068",
+      "evidence": "Catálogo oficial, sesión 140, fase 1",
+      "products": [
+        "Rack Battery"
+      ],
+      "group": "Tai An Tai Energy",
+      "new": false,
+      "bucket": "Red e IoT",
+      "halls": [
+        "15.2"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "2379549966",
+      "name": "Wannian Xin",
+      "legalName": "JIANGXI WAN NIAN XIN MICRO-ELECTRONICS CO.,LTD",
+      "category": "Baterías y almacenamiento",
+      "priority": "Alternativa",
+      "day": 16,
+      "area": "C",
+      "hall": "15.2",
+      "stand": "15.2J08",
+      "allBooths": "15.2J08",
+      "notes": "Energía y packs.",
+      "source": "https://365.cantonfair.org.cn/en-US/shops?id=2379549966",
+      "evidence": "Catálogo oficial, sesión 140, fase 1",
+      "products": [],
+      "group": "Wannian Xin",
+      "new": false,
+      "bucket": "Energía",
+      "halls": [
+        "15.2"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "2413070554",
+      "name": "Beijing Jinma Times",
+      "legalName": "Beijing Jinma Times Technology Co., Ltd",
+      "category": "Workstations y servidores GPU",
+      "priority": "Esencial",
+      "day": 17,
+      "area": "A",
+      "hall": "3.1",
+      "stand": "3.1L35",
+      "allBooths": "3.1L35",
+      "notes": "Distribuidor de PC, workstation, storage y servidores.",
+      "source": "https://365.cantonfair.org.cn/en-US/shops?id=2413070554",
+      "evidence": "Catálogo oficial, sesión 140, fase 1",
+      "products": [
+        "server"
+      ],
+      "group": "Beijing Jinma Times",
+      "new": false,
+      "bucket": "Cómputo",
+      "halls": [
+        "3.1"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "1780937246",
+      "name": "Prostar Guangdong",
+      "legalName": "Guangdong Prostar New Energy Technology Co., Ltd.",
+      "category": "UPS para rack e inversores",
+      "priority": "Esencial",
+      "day": 17,
+      "area": "C",
+      "hall": "14.2",
+      "stand": "14.2E04",
+      "allBooths": "14.2E04",
+      "notes": "UPS rack y respaldo.",
+      "source": "https://365.cantonfair.org.cn/en-US/shops?id=1780937246",
+      "evidence": "Catálogo oficial, sesión 140, fase 1",
+      "products": [
+        "Prostar 1-10kVA Single-Phase High-Frequency Online UPS with PF 1.0"
+      ],
+      "group": "Prostar Guangdong",
+      "new": false,
+      "bucket": "Red e IoT",
+      "halls": [
+        "14.2"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "web-deye",
+      "name": "Deye",
+      "legalName": "Deye",
+      "category": "Inversores y ESS",
+      "priority": "Esencial",
+      "day": 17,
+      "area": "C",
+      "hall": "14.2",
+      "stand": "14.2E23-24",
+      "allBooths": "14.2E23-24",
+      "notes": "Comparar batería/inversor para nodo remoto.",
+      "source": "https://deye.com/company-news/meet-deye-at-seven-global-exhibitions-in-october-2026/",
+      "evidence": "Anuncio del expositor para octubre de 2026",
+      "products": [],
+      "group": "Deye",
+      "new": false,
+      "bucket": "Energía",
+      "halls": [
+        "14.2"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "1244703865",
+      "name": "Voltronic Power",
+      "legalName": "VOLTRONIC POWER TECHNOLOGY (SHENZHEN) CORP.",
+      "category": "UPS e inversores ODM",
+      "priority": "Esencial",
+      "day": 17,
+      "area": "C",
+      "hall": "14.2",
+      "stand": "14.2I32-33",
+      "allBooths": "14.2I32-33, 14.2J12-13",
+      "notes": "Fabricación ODM sin marca propia.",
+      "source": "https://365.cantonfair.org.cn/en-US/shops?id=1244703865",
+      "evidence": "Catálogo oficial, sesión 140, fase 1",
+      "products": [
+        "Galleon One Rack/Tower Online UPS"
+      ],
+      "group": "Voltronic Power",
+      "new": false,
+      "bucket": "Energía",
+      "halls": [
+        "14.2"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "0754811467",
+      "name": "EAST Group",
+      "legalName": "East Group Co., LTD",
+      "category": "UPS y ESS",
+      "priority": "Esencial",
+      "day": 17,
+      "area": "C",
+      "hall": "15.3",
+      "stand": "15.3A32-33",
+      "allBooths": "15.3A32-33, 15.3B01-02, 14.2B34-35, 14.2C09-10",
+      "notes": "UPS para infraestructura. Revisar bypass, monitoreo y compatibilidad del banco de baterías.",
+      "source": "https://365.cantonfair.org.cn/en-US/shops?id=0754811467",
+      "evidence": "Catálogo oficial, sesión 140, fase 1",
+      "products": [
+        "DC UPS-18W",
+        "Outdoor UPS 500 - 3000 VA"
+      ],
+      "group": "EAST Group",
+      "new": false,
+      "bucket": "Energía",
+      "halls": [
+        "15.3",
+        "14.2"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "0940976258",
+      "name": "LEOCH Zhaoqing",
+      "legalName": "ZHAOQING LEOCH BATTERY TECHNOLOGY CO.,LTD.",
+      "category": "Baterías de respaldo",
+      "priority": "Esencial",
+      "day": 17,
+      "area": "C",
+      "hall": "15.3",
+      "stand": "15.3F10-11",
+      "allBooths": "15.3F10-11, 15.3E34-35",
+      "notes": "Baterías para UPS y telecom.",
+      "source": "https://365.cantonfair.org.cn/en-US/shops?id=0940976258",
+      "evidence": "Catálogo oficial, sesión 140, fase 1",
+      "products": [
+        "12V 1.2Ah Lead Acid Battery LP12-1.2",
+        "12V 100Ah AGM VRLA batteryLP12-100",
+        "12V 100Ah Front Terminal Pure Lead Battery PLH100FT",
+        "12V 100Ah Front terminal Lead Acid BatteryLPF12-100",
+        "12V 100Ah Hybrid Gel Battery LPGS12-110",
+        "12V 12Ah Lead Acid BatteryLP12-12",
+        "12V 150Ah Front Terminal Lead Acid BatteryLPF12-150",
+        "12V 150Ah lead acid battery LP12-150",
+        "12V 18Ah Lead Acid BatteryLP12-18",
+        "12V 200Ah Hybrid Gel Battery LPGS12-200",
+        "12V 200Ah lead acid batteryLP12-200",
+        "12V 20Ah Lawn Mower Battery U1L-250",
+        "12V 38Ah Lead Acid BatteryLP12-38",
+        "12V 4.5Ah Lead Acid Battery LP12-4.5",
+        "12V 400W Front Terminal Pure Lead Acid BatteryPLX12-600FT",
+        "12V 400W Pure Lead Acid BatteryPLX12-400",
+        "12V 5.4Ah Lead Acid Battery",
+        "12V 65Ah Lead Acid BatteryLP12-65",
+        "12V 700W Front Terminal Pure Lead Battery PLX12-700FT",
+        "12V 7Ah AGM VRLA Battery LP12-7.0",
+        "12V 9Ah Lead Acid BatteryLP12-9.0",
+        "12V Tubular OPzV Gel Battery 5OPzV100",
+        "2V 300Ah High Temperature Battery",
+        "2V Lead Carbon Battery LRC2-800",
+        "2V Tubular GEL OPzV Battery 10OPzV1000",
+        "6V 4.5Ah lead acid battery LP6-4.5",
+        "Caravan Battery  TC12-105",
+        "Caravan Battery  TC12-120",
+        "Caravan Battery  TC12-80",
+        "Caravan Battery  TC12-90",
+        "Deep Cycle Motive Battery EV12240",
+        "Deep Cycle Motive Battery EV6260",
+        "Deep Cycle Motive Battery EV6312",
+        "Deep Cycle Motive Battery EV6390",
+        "Deep Cycle Motive Battery GF6210",
+        "Deep Cycle Motive Battery LDC12-105-G27-T",
+        "Deep Cycle Motive Battery LDC12-115-G31-T",
+        "Deep Cycle Motive Battery LDC12-150-GC12",
+        "Deep Cycle Motive Battery LDC6-224-GC2",
+        "Deep Cycle Motive Battery LDCL6-210-GC2",
+        "Dry Charge Maintenance-free lead-acid battery EBX14-BS",
+        "Dry Charge Maintenance-free lead-acid battery EBX20-BS",
+        "Dry Charge Maintenance-free lead-acid battery EBX4L-BS",
+        "Dry Charge Maintenance-free lead-acid battery EBX7A-BS-I",
+        "Dry Charge Maintenance-free lead-acid battery EBX7L-BS",
+        "Dry Charge Maintenance-free lead-acid battery EBX9-BS",
+        "Flooded Motive Battery DT106",
+        "Flooded Motive Battery DT1275",
+        "GEL Deep Cycle Battery LPCG12-40",
+        "GEL Deep Cycle Battery LPCG12-90",
+        "High Performance UPS Battery XP12-210",
+        "High Performance UPS Battery XP12-400",
+        "High Performance UPS Battery XP12-540",
+        "High Rate Power Supply LHR12400W",
+        "High Rate Power Supply LHR12690W",
+        "High Temperature Battery Front terminal Battery LHT2-300",
+        "High Temperature Battery LHT12-100",
+        "High Temperature Battery LHTF12-100",
+        "Lithium Battery LFeLi-1255M",
+        "Lithium Battery LFeli-12100M",
+        "Lithium Battery LFeli-48100TB",
+        "Lithium Battery LFeli-4850T",
+        "Lithium Motorcycle Battery LFPS-X12",
+        "Lithium Motorcycle Battery LFPS-X20H",
+        "Lithium Motorcycle Battery LFPS-X4L",
+        "Lithium Motorcycle Battery LFPS-Z14S",
+        "MF AGM  Start-Stop Car Battery EFB-L2",
+        "MF AGM  Start-StopCar Battery AGM-L2",
+        "MF AGM  Start-StopCar Battery AGM-L3",
+        "MF AGM  Start-StopCar Battery AGM-L4",
+        "MF AGM  Start-StopCar Battery AGM-L5",
+        "Maintenance Free Auto Battery 56219",
+        "Maintenance Free Auto Battery 57113",
+        "Maintenance Free Auto Battery 57545",
+        "Maintenance Free Car Battery 54519",
+        "Maintenance Free Car Battery BCI 31AT-760",
+        "Maintenance Free Car Battery JIS N120",
+        "Maintenance Free Car Battery JIS N150",
+        "Maintenance Free Car Battery JIS N200",
+        "Maintenance Free Car Battery JIS N70",
+        "Maintenance Free Car Battery JIS NS40ZL",
+        "Maintenance Free Car Battery JIS NS60L",
+        "Motorcycle Battery LT2.5-3-2",
+        "Motorcycle Battery LTC5A-3",
+        "Motorcycle Gel Battery HPG20-3",
+        "Motorcycle Gel Battery HPG4-3",
+        "Motorcycle Gel Battery HPG7D-3",
+        "Motorcycle Gel Battery HPG9A-4",
+        "Pure Lead Battery PLH190FT",
+        "Pure Lead Carbon Battery PLH+C170FT",
+        "Pure Lead Carbon Deep Cycle Battery PLC+C190FT",
+        "Tubular Flooded OPzS Battery 7OPzS490",
+        "Tubular Gel Battery 6OPzV420",
+        "Tubular OPzV Battery 12V4OPzV150FT",
+        "Wet Charge Maintenance-free lead-acid battery LT9A-4",
+        "Wet MF lead-acid battery EB12D-4",
+        "Wet MF lead-acid battery EB7E-4",
+        "Wet MF lead-acid battery EBZ10-4-1",
+        "Wet MF lead-acid battery JB14-4",
+        "Wet MF lead-acid battery MB14-4",
+        "Wet MF lead-acid battery MX12-4",
+        "Wet MF lead-acid battery MX16-3",
+        "Wet MF lead-acid battery MX20-3",
+        "Wet MF lead-acid battery MX30-3",
+        "Wet MF lead-acid battery MX9-4",
+        "Wet Maintenance-free lead-acid battery EB12-4",
+        "Wet Maintenance-free lead-acid battery EB30-3",
+        "Wet Maintenance-free lead-acid battery EB4-3",
+        "Wet Maintenance-free lead-acid battery EBZ10-4"
+      ],
+      "group": "Leoch",
+      "new": false,
+      "bucket": "Energía",
+      "halls": [
+        "15.3"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "1822949803",
+      "name": "Ubetter",
+      "legalName": "UBETTER TECHNOLOGY COMPANY LIMITED ",
+      "category": "Packs LiFePO4",
+      "priority": "Alternativa",
+      "day": 17,
+      "area": "A",
+      "hall": "8.1",
+      "stand": "8.1D29-30",
+      "allBooths": "8.1D29-30",
+      "notes": "Packs y BMS.",
+      "source": "https://365.cantonfair.org.cn/en-US/shops?id=1822949803",
+      "evidence": "Catálogo oficial, sesión 140, fase 1",
+      "products": [
+        "12V 20Ah Output Power 360W LiFePO4 Battery",
+        "12V100Ah Output Power 1200W LiFePO4 Battery",
+        "48V50Ah Output Power 2400W LiFePO4 Battery"
+      ],
+      "group": "Ubetter",
+      "new": false,
+      "bucket": "Energía",
+      "halls": [
+        "8.1"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "2374743872",
+      "name": "EPEVER Huizhou",
+      "legalName": "HUIZHOU EPEVER TECHNOLOGY CO., LTD.",
+      "category": "Controladores y energía solar",
+      "priority": "Alternativa",
+      "day": 17,
+      "area": "A",
+      "hall": "8.1",
+      "stand": "8.1E30",
+      "allBooths": "8.1E30",
+      "notes": "Para nodos con solar.",
+      "source": "https://365.cantonfair.org.cn/en-US/shops?id=2374743872",
+      "evidence": "Catálogo oficial, sesión 140, fase 1",
+      "products": [
+        "lithium battery"
+      ],
+      "group": "EPEVER Huizhou",
+      "new": false,
+      "bucket": "Energía",
+      "halls": [
+        "8.1"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "web-sako-power",
+      "name": "SAKO POWER",
+      "legalName": "SAKO POWER",
+      "category": "Inversores y baterías de litio",
+      "priority": "Alternativa",
+      "day": 17,
+      "area": "C",
+      "hall": "14.2",
+      "stand": "14.2A05-06",
+      "allBooths": "14.2A05-06",
+      "notes": "Packs e inversores.",
+      "source": "https://cn.linkedin.com/company/sako-power",
+      "evidence": "Anuncio del expositor para octubre de 2026",
+      "products": [],
+      "group": "SAKO POWER",
+      "new": false,
+      "bucket": "Energía",
+      "halls": [
+        "14.2"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "1051781851",
+      "name": "Multifit Beijing",
+      "legalName": "Beijing Multifit Electrical Technology Co.,Ltd.",
+      "category": "Inversores y LiFePO4",
+      "priority": "Alternativa",
+      "day": 17,
+      "area": "C",
+      "hall": "14.2",
+      "stand": "14.2C01-02",
+      "allBooths": "14.2C01-02, 14.2B43-44",
+      "notes": "Comparar solución solar/respaldo.",
+      "source": "https://365.cantonfair.org.cn/en-US/shops?id=1051781851",
+      "evidence": "Catálogo oficial, sesión 140, fase 1",
+      "products": [
+        "Household emergency energy storage power supply",
+        "M-PSS 600W Solar Generator – Pure Sine Wave Battery Backup with USB & Car Output",
+        "Portable Power Station",
+        "Rack Mount LiFe PO4 Lithium battery",
+        "Solar hybrid inverter with MPPT Controller",
+        "Stackable Energy Storage System with Hybrid Inverter & LiFePO₄ Battery M-ESS3200W",
+        "VMAXPOWER Mobile Energy storage system",
+        "Vmaxpower M-LFP Series 12V 100Ah-200Ah LiFePO4"
+      ],
+      "group": "Multifit",
+      "new": false,
+      "bucket": "Energía",
+      "halls": [
+        "14.2"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "web-srne",
+      "name": "SRNE",
+      "legalName": "SRNE",
+      "category": "Inversores y ESS",
+      "priority": "Alternativa",
+      "day": 17,
+      "area": "C",
+      "hall": "14.2",
+      "stand": "14.2C06-07",
+      "allBooths": "14.2C06-07",
+      "notes": "Solar y ESS.",
+      "source": "https://cn.linkedin.com/company/srne-solar",
+      "evidence": "Anuncio del expositor para octubre de 2026",
+      "products": [],
+      "group": "SRNE",
+      "new": false,
+      "bucket": "Energía",
+      "halls": [
+        "14.2"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "2349741779",
+      "name": "Glory Stand",
+      "legalName": "Glory Stand (Qingyuan) Energy Limited",
+      "category": "LiFePO4 y ESS",
+      "priority": "Alternativa",
+      "day": 17,
+      "area": "C",
+      "hall": "14.2",
+      "stand": "14.2C41-42",
+      "allBooths": "14.2C41-42",
+      "notes": "Baterías LFP y almacenamiento.",
+      "source": "https://365.cantonfair.org.cn/en-US/shops?id=2349741779",
+      "evidence": "Catálogo oficial, sesión 140, fase 1",
+      "products": [
+        "MSN 12v 12ah rechargeable lifepo4 battery pack",
+        "MSN rack-mounted lifepo4 energy storage battery 51.2v",
+        "lifepo4 battery pack",
+        "power wall lifepo4 battery"
+      ],
+      "group": "Glory Stand",
+      "new": false,
+      "bucket": "Energía",
+      "halls": [
+        "14.2"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "1548125093",
+      "name": "LEOCH Anhui",
+      "legalName": "ANHUI LEOCH POWER SUPPLY CORP.",
+      "category": "Baterías para telecom y ESS",
+      "priority": "Alternativa",
+      "day": 17,
+      "area": "C",
+      "hall": "14.2",
+      "stand": "14.2D33-34",
+      "allBooths": "14.2D33-34, 14.2E10-11",
+      "notes": "Mismo grupo Leoch.",
+      "source": "https://365.cantonfair.org.cn/en-US/shops?id=1548125093",
+      "evidence": "Catálogo oficial, sesión 140, fase 1",
+      "products": [
+        "12V 100Ah Front terminal Lead Acid BatteryLPF12-100",
+        "12V 150Ah Front Terminal Lead Acid BatteryLPF12-150",
+        "12V 18Ah Lead Acid BatteryLP12-18",
+        "12V 9Ah Lead Acid BatteryLP12-9.0",
+        "Lithium Battery LFeli-48100TB"
+      ],
+      "group": "Leoch",
+      "new": false,
+      "bucket": "Energía",
+      "halls": [
+        "14.2"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "1100393284",
+      "name": "SUOER",
+      "legalName": "Foshan suoer electronic industry CO.,Ltd.",
+      "category": "Inversores y energía",
+      "priority": "Alternativa",
+      "day": 17,
+      "area": "C",
+      "hall": "14.2",
+      "stand": "14.2D35",
+      "allBooths": "8.1F18-19, 8.1E25-26, 14.2D35",
+      "notes": "Comparar inversores y respaldo.",
+      "source": "https://365.cantonfair.org.cn/en-US/shops?id=1100393284",
+      "evidence": "Catálogo oficial, sesión 140, fase 1",
+      "products": [
+        "10200W Hybrid Solar Off-Grid Inverter System with 10kwh Lithium Iron & Lifepo4 Battery",
+        "10200W Hybrid Solar Off-Grid Inverter System with 15kwh Lithium Iron & Lifepo4 Battery",
+        "6200W Hybrid Solar Off-Grid Inverter System with 5kwh Lithium Iron & Lifepo4 Battery",
+        "IP66 48VDC 6KW MPPT Solar Hybrid Inverter Single Phase On-Off Grid Inverter with 5 Years Warranty"
+      ],
+      "group": "SUOER",
+      "new": false,
+      "bucket": "Energía",
+      "halls": [
+        "8.1",
+        "14.2"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "1965003865",
+      "name": "SNAT / SNADI",
+      "legalName": "FOSHAN SNAT ENERGY ELECTRICAL TECHNOLOGY CO., LTD",
+      "category": "Inversores y baterías",
+      "priority": "Alternativa",
+      "day": 17,
+      "area": "C",
+      "hall": "14.2",
+      "stand": "14.2E43",
+      "allBooths": "14.2E43",
+      "notes": "Sistemas 48 V y respaldo.",
+      "source": "https://365.cantonfair.org.cn/en-US/shops?id=1965003865",
+      "evidence": "Catálogo oficial, sesión 140, fase 1",
+      "products": [
+        "6KW 48VDC 120A 230VAC IP54 High Frequency solar inverter",
+        "SNADI BL Lithium Iron Phosphate Battery",
+        "SNADI NKH 5KW 48VDC high frequency inverter for home parallel function",
+        "transformer inverter, offline UPS"
+      ],
+      "group": "SNAT / SNADI",
+      "new": false,
+      "bucket": "Energía",
+      "halls": [
+        "14.2"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "web-gamko",
+      "name": "GAMKO",
+      "legalName": "GAMKO",
+      "category": "Solar y ESS",
+      "priority": "Alternativa",
+      "day": 17,
+      "area": "C",
+      "hall": "14.2",
+      "stand": "14.2F38",
+      "allBooths": "14.2F38",
+      "notes": "Alternativa solar y almacenamiento para nodos.",
+      "source": "https://www.gamkopower.com/The-140th-Canton-Fair-Invitation-From-GAMKO-NEW-ENERGY-id08799035.html",
+      "evidence": "Anuncio del expositor para octubre de 2026",
+      "products": [],
+      "group": "GAMKO",
+      "new": false,
+      "bucket": "Energía",
+      "halls": [
+        "14.2"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "2511980185",
+      "name": "QSUPER Energy",
+      "legalName": "JIANGSU QSUPER ENERGY CO.,LTD",
+      "category": "Almacenamiento de energía",
+      "priority": "Alternativa",
+      "day": 17,
+      "area": "C",
+      "hall": "14.2",
+      "stand": "14.2G05",
+      "allBooths": "14.2G05",
+      "notes": "Catálogo muestra pack ESS.",
+      "source": "https://365.cantonfair.org.cn/en-US/shops?id=2511980185",
+      "evidence": "Catálogo oficial, sesión 140, fase 1",
+      "products": [
+        "52.1V 314Ah Energy Storage Battery Pack"
+      ],
+      "group": "QSUPER Energy",
+      "new": false,
+      "bucket": "Energía",
+      "halls": [
+        "14.2"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "1440511200",
+      "name": "Felicitysolar",
+      "legalName": "Guangzhou Felicity Solar Technology Co.ltd",
+      "category": "LiFePO4 e inversores",
+      "priority": "Alternativa",
+      "day": 17,
+      "area": "C",
+      "hall": "14.2",
+      "stand": "14.2G34-36",
+      "allBooths": "14.2H09-11, 14.2G34-36, 8.1D10-12, 8.1C29-31",
+      "notes": "ESS residencial y C&I.",
+      "source": "https://365.cantonfair.org.cn/en-US/shops?id=1440511200",
+      "evidence": "Catálogo oficial, sesión 140, fase 1",
+      "products": [],
+      "group": "Felicitysolar",
+      "new": false,
+      "bucket": "Energía",
+      "halls": [
+        "14.2",
+        "8.1"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "1999801727",
+      "name": "JNTECH",
+      "legalName": "Jntech Renewable Energy Co.,Ltd",
+      "category": "Inversores y baterías",
+      "priority": "Alternativa",
+      "day": 17,
+      "area": "C",
+      "hall": "14.2",
+      "stand": "14.2H15",
+      "allBooths": "14.2H15",
+      "notes": "Solar y almacenamiento.",
+      "source": "https://365.cantonfair.org.cn/en-US/shops?id=1999801727",
+      "evidence": "Catálogo oficial, sesión 140, fase 1",
+      "products": [
+        "JNTech Solar Energy Storage Lithium battery Wall-Mount 10.24kWh"
+      ],
+      "group": "JNTECH",
+      "new": false,
+      "bucket": "Energía",
+      "halls": [
+        "14.2"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "0842654872",
+      "name": "Jinbiao / KINPOWER",
+      "legalName": "HEBEI JINBIAO CONSTRUCTION MATERIALS TECH CORP.,LTD",
+      "category": "ESS modular",
+      "priority": "Alternativa",
+      "day": 17,
+      "area": "C",
+      "hall": "14.2",
+      "stand": "14.2H24",
+      "allBooths": "14.2H24",
+      "notes": "ESS de pared/apilable.",
+      "source": "https://365.cantonfair.org.cn/en-US/shops?id=0842654872",
+      "evidence": "Catálogo oficial, sesión 140, fase 1",
+      "products": [
+        "KINPOWER K-ALL-IN-ONE Solar Inverter Battery All-in-One Energy Storage System 5kW",
+        "KINPOWER K-MOVE Mobile Wheeled Energy Storage Battery 16.07-32.256kWh",
+        "KINPOWER K-STACK / K-STACK HV Stacked All-in-One Energy Storage 5-10kW LV & 10kW HV",
+        "KINPOWER K-WALL ESS Wall-Mounted Micro Home Energy Storage Power Station 1000W-2000W"
+      ],
+      "group": "Jinbiao / KINPOWER",
+      "new": false,
+      "bucket": "Energía",
+      "halls": [
+        "14.2"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "1335704043",
+      "name": "JYC Battery",
+      "legalName": "JYC Battery Manufacturer Co.,Ltd.",
+      "category": "Baterías para telecom",
+      "priority": "Alternativa",
+      "day": 17,
+      "area": "C",
+      "hall": "14.3",
+      "stand": "14.3D01-02",
+      "allBooths": "14.3D01-02, 14.1A21-22, 9.3H25, 15.2C38-39",
+      "notes": "Baterías front-terminal y deep-cycle.",
+      "source": "https://365.cantonfair.org.cn/en-US/shops?id=1335704043",
+      "evidence": "Catálogo oficial, sesión 140, fase 1",
+      "products": [
+        "AGM Battery Alarm Security Black",
+        "AGM VRLA Battery",
+        "Automotive Battery",
+        "Car Battery",
+        "Deep Cycle Battery Solar Telecommunication",
+        "Free Maintenance 12V12AH Lead Acid Battery",
+        "Front Terminal Storage Battery",
+        "Gel Battery",
+        "General Purpose Lead Acid Battery",
+        "High Rate Battery",
+        "JYC High Rate Battery 12V Battery Data Center",
+        "Lead Acid Battery",
+        "OPzS Solar battery",
+        "OPzV Battery",
+        "Solar Battery",
+        "Tubular Battery 2V Solar Lead Acid Battery"
+      ],
+      "group": "JYC Battery",
+      "new": false,
+      "bucket": "Energía",
+      "halls": [
+        "14.3",
+        "14.1",
+        "9.3",
+        "15.2"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "1511626768",
+      "name": "Poojin",
+      "legalName": "Guangzhou poojin  Electronic Co.,Ltd",
+      "category": "Inversores de 48 V",
+      "priority": "Alternativa",
+      "day": 17,
+      "area": "C",
+      "hall": "14.3",
+      "stand": "14.3E18-19",
+      "allBooths": "14.3E18-19",
+      "notes": "Inversores 48 VDC a 230 VAC.",
+      "source": "https://365.cantonfair.org.cn/en-US/shops?id=1511626768",
+      "evidence": "Catálogo oficial, sesión 140, fase 1",
+      "products": [
+        "48v dc to 230v ac pure sine wave 5000w hybrid power inverter with built in PWM solar controller",
+        "48v dc to 230v ac pure sine wave 5000w inverter ac charger with built in 80A MPPT solar controller",
+        "BELTTT BAF series ESS all in one",
+        "Hybrid inverter,48v dc to 230v ac pure sine wave 5000w with built in MPPT solar controller"
+      ],
+      "group": "Poojin",
+      "new": false,
+      "bucket": "Energía",
+      "halls": [
+        "14.3"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "1319707439",
+      "name": "MHB / Minhua",
+      "legalName": "FUJIAN MINHUA POWER SOURCE CO.,LTD",
+      "category": "Baterías para telecom y UPS",
+      "priority": "Alternativa",
+      "day": 17,
+      "area": "C",
+      "hall": "14.3",
+      "stand": "14.3E40-41",
+      "allBooths": "14.3E40-41",
+      "notes": "Fuerte presencia de plomo VRLA.",
+      "source": "https://365.cantonfair.org.cn/en-US/shops?id=1319707439",
+      "evidence": "Catálogo oficial, sesión 140, fase 1",
+      "products": [
+        "2V battery",
+        "AGM DEEP CYCLE BATTERY",
+        "AGM Deep Cycle Battery",
+        "EV battery",
+        "FT battery",
+        "GEL battery",
+        "GEL solar battery",
+        "General purpose battery",
+        "High Rate Series battery"
+      ],
+      "group": "MHB / Minhua",
+      "new": false,
+      "bucket": "Energía",
+      "halls": [
+        "14.3"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "1858650821",
+      "name": "Cyber Energy",
+      "legalName": "Dongguan Cyber Energy Co.,Ltd",
+      "category": "UPS e inversores",
+      "priority": "Alternativa",
+      "day": 17,
+      "area": "C",
+      "hall": "14.3",
+      "stand": "14.3I28-29",
+      "allBooths": "14.3I28-29",
+      "notes": "Comparar UPS con modelo de referencia, bypass y soporte de batería externa.",
+      "source": "https://365.cantonfair.org.cn/en-US/shops?id=1858650821",
+      "evidence": "Catálogo oficial, sesión 140, fase 1",
+      "products": [],
+      "group": "Cyber Energy",
+      "new": false,
+      "bucket": "Energía",
+      "halls": [
+        "14.3"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "0725415178",
+      "name": "LEOCH Jiangsu",
+      "legalName": "LEOCH BATTERY(JIANGSU) CORP.",
+      "category": "Baterías",
+      "priority": "Alternativa",
+      "day": 17,
+      "area": "C",
+      "hall": "15.1",
+      "stand": "15.1B34-38",
+      "allBooths": "15.1B34-38, 15.1C07-10",
+      "notes": "Mismo grupo Leoch.",
+      "source": "https://365.cantonfair.org.cn/en-US/shops?id=0725415178",
+      "evidence": "Catálogo oficial, sesión 140, fase 1",
+      "products": [],
+      "group": "Leoch",
+      "new": false,
+      "bucket": "Energía",
+      "halls": [
+        "15.1"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "2565987889",
+      "name": "Unique Technology",
+      "legalName": "Unique Technology Co., Ltd.",
+      "category": "Baterías de alta tensión",
+      "priority": "Alternativa",
+      "day": 17,
+      "area": "C",
+      "hall": "15.2",
+      "stand": "15.2G40",
+      "allBooths": "15.2G40",
+      "notes": "Batería de alta tensión en catálogo.",
+      "source": "https://365.cantonfair.org.cn/en-US/shops?id=2565987889",
+      "evidence": "Catálogo oficial, sesión 140, fase 1",
+      "products": [
+        "Storage Battery/High Voltage/819.2V"
+      ],
+      "group": "Unique Technology",
+      "new": false,
+      "bucket": "Energía",
+      "halls": [
+        "15.2"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "0952858640",
+      "name": "Reros",
+      "legalName": "Reros (Changzhou) Electronics,Co Ltd",
+      "category": "UPS y respaldo",
+      "priority": "Alternativa",
+      "day": 17,
+      "area": "C",
+      "hall": "15.3",
+      "stand": "15.3D25-26",
+      "allBooths": "15.3D25-26",
+      "notes": "Comparar UPS, bypass, módulos reparables y garantía.",
+      "source": "https://365.cantonfair.org.cn/en-US/shops?id=0952858640",
+      "evidence": "Catálogo oficial, sesión 140, fase 1",
+      "products": [
+        "1-3KVA Li-Battery High Frequency Rackmount Series Online UPS (Lithium UPS)",
+        "EPS for fire fighting equipment and special load or lighting",
+        "Lead acid battery/Lithium battery"
+      ],
+      "group": "Reros",
+      "new": false,
+      "bucket": "Energía",
+      "halls": [
+        "15.3"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "2310648385",
+      "name": "LEOCH Shenzhen",
+      "legalName": "Shenzhen Leoch Development Co.,Ltd",
+      "category": "Baterías y soluciones de energía",
+      "priority": "Alternativa",
+      "day": 17,
+      "area": "C",
+      "hall": "15.3",
+      "stand": "15.3E36",
+      "allBooths": "15.3E36",
+      "notes": "Mismo grupo Leoch.",
+      "source": "https://365.cantonfair.org.cn/en-US/shops?id=2310648385",
+      "evidence": "Catálogo oficial, sesión 140, fase 1",
+      "products": [
+        "12V 100Ah Front terminal Lead Acid BatteryLPF12-100",
+        "12V 150Ah Front Terminal Lead Acid BatteryLPF12-150",
+        "Leoch Battery LP12-9 12V 9.0Ah"
+      ],
+      "group": "Leoch",
+      "new": false,
+      "bucket": "Energía",
+      "halls": [
+        "15.3"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "2029112391",
+      "name": "Multifit Guangdong",
+      "legalName": "Guangdong Multifit Solar Co.,Ltd.",
+      "category": "LiFePO4 e inversores",
+      "priority": "Alternativa",
+      "day": 17,
+      "area": "C",
+      "hall": "15.3",
+      "stand": "15.3F05",
+      "allBooths": "15.3F05",
+      "notes": "Mismo grupo Multifit.",
+      "source": "https://365.cantonfair.org.cn/en-US/shops?id=2029112391",
+      "evidence": "Catálogo oficial, sesión 140, fase 1",
+      "products": [
+        "Floor-Standing Mobile Energy Storage System",
+        "Solar power bank M-PSSV",
+        "Stackable LiFeP04 Battery"
+      ],
+      "group": "Multifit",
+      "new": false,
+      "bucket": "Energía",
+      "halls": [
+        "15.3"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "1554719494",
+      "name": "UPSystem Power",
+      "legalName": "CHANGZHOU UPSYSTEM POWER CO.,LTD",
+      "category": "UPS y baterías de litio",
+      "priority": "Alternativa",
+      "day": 17,
+      "area": "C",
+      "hall": "15.3",
+      "stand": "15.3F14-15",
+      "allBooths": "15.3F14-15",
+      "notes": "UPS y Li-Wall 24/48 V.",
+      "source": "https://365.cantonfair.org.cn/en-US/shops?id=1554719494",
+      "evidence": "Catálogo oficial, sesión 140, fase 1",
+      "products": [
+        "High frequency PF 1.0 1KVA to 10KVA online uninterruptible power supply",
+        "Li-Wall 24V 200AH Lithium Battery",
+        "Li-Wall 48V 200AH Lithium Battery",
+        "MODULAR UPS HM 40KVA to 600KVA online uninterruptible power supply",
+        "Rack Mount High frequency HT 1KVA 2kva 3Kva online uninterruptible power supply"
+      ],
+      "group": "UPSystem Power",
+      "new": false,
+      "bucket": "Energía",
+      "halls": [
+        "15.3"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "1297100561",
+      "name": "OUTDO / Zhangzhou Huawei Battery",
+      "legalName": "Zhangzhou Huawei Power Supply Technology Co.,Ltd",
+      "category": "Baterías para UPS y energía",
+      "priority": "Alternativa",
+      "day": 17,
+      "area": "C",
+      "hall": "15.3",
+      "stand": "15.3H10-11",
+      "allBooths": "15.3H10-11, 15.3G34-35, 15.2D31-32, 15.2E12-13, 15.2H07",
+      "notes": "Baterías AGM/gel y litio.",
+      "source": "https://365.cantonfair.org.cn/en-US/shops?id=1297100561",
+      "evidence": "Catálogo oficial, sesión 140, fase 1",
+      "products": [
+        "AGM BATTERY",
+        "Data Center Lithium Ion  Backup/Solar Battery  Solar PackPack",
+        "Data Center Lithium Ion  Backup/Solar Battery Pack",
+        "Dry Charged Maintenance Free motorcycle Battery （2 WHEELERS BATTERY）",
+        "Factory Activated Sealed MF motorcycle battery(VRLA Maintanance Free)",
+        "GEL battery for motorcycle(GEL motorcycle battery)",
+        "HOME Lithium Ion  POWER WALL",
+        "LEAD ACID BATTERY",
+        "MOTORCYCLE BATTERY",
+        "OUTDO DRY CHARGED  Maintenance Free Motorcycle Battery",
+        "OUTDO DS-iGEL motorcycle battery(Digital display Intelligent detected/LCD screen)",
+        "OUTDO Digital Screen Intelligent Gel Storage Battery",
+        "OUTDO Dry Charged Maintenance Free motorcycle Battery （2 WHEELERS BATTERY）",
+        "OUTDO Electric Vehicle Battery(EV Battery)",
+        "OUTDO Electric bike rechargeable battery  6-DZM-12",
+        "OUTDO Energy Storage Battery",
+        "OUTDO Factory Activated Sealed MF motorcycle battery(VRLA Maintanance Free)",
+        "OUTDO Flooded Rechargeabled Motorcycle Battery",
+        "OUTDO Front Terminal battery Industrial Battery",
+        "OUTDO GEL Energy Storage solar battery",
+        "OUTDO GEL MOTORCYCLE BATTERY",
+        "OUTDO GEL battery for motorcycle(GEL motorcycle battery)",
+        "OUTDO HLFP7A(DS) LITHIUM BATTERY",
+        "OUTDO LITHIUM BATTERY",
+        "OUTDO LITHIUM BATTERY FOR MOTORCYCLE BATTERY",
+        "OUTDO Lithium Ion Stacked Energy Storage Battery",
+        "OUTDO Lithium ion energy storage battery",
+        "OUTDO MOTORCYCLE BATTERY",
+        "OUTDO Maintanance Free  Maintanance Free MOTORCYCLE BATTERY",
+        "OUTDO Motorcycle Battery",
+        "OUTDO Scooter battery  Motorcycle Battery",
+        "OUTDO Stacked Power Storage Lithium Ion Charging System",
+        "OUTDO Stacked Semi-solid Lithium Ion Battery",
+        "OUTDO UPS BATTERY",
+        "OUTDO UPS BATTERY（AGM BATTERY） Industrial Battery",
+        "OUTDO UPS BATTERY（AGM BATTERY）Industrial Battery",
+        "OUTDO iGEL Motorcycle Battery (Intelligent Detected)",
+        "Outdoor power station",
+        "lead acid motorcycle battery"
+      ],
+      "group": "OUTDO / Zhangzhou Huawei Battery",
+      "new": false,
+      "bucket": "Energía",
+      "halls": [
+        "15.3",
+        "15.2"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "2315038934",
+      "name": "Dengfeng",
+      "legalName": "Dengfeng Technology (Jiangxi) Co., Ltd.",
+      "category": "Energía portátil y respaldo",
+      "priority": "Alternativa",
+      "day": 17,
+      "area": "C",
+      "hall": "15.4",
+      "stand": "15.4J16",
+      "allBooths": "15.4J16",
+      "notes": "Power stations LFP.",
+      "source": "https://365.cantonfair.org.cn/en-US/shops?id=2315038934",
+      "evidence": "Catálogo oficial, sesión 140, fase 1",
+      "products": [
+        "12.8V 50AhPortable Power Station Solar Generator",
+        "220V Portable Power Bank with 1500W Output 1.6kWh LiFePO4 Battery and Smart Power Supply System",
+        "3000W 51.2V 50Ah Portable Power Station Solar Generator",
+        "5000W 51.2V 100Ah Portable Power Station Solar Generator",
+        "Portable 220V mobile emergency power supply for field work, 3.3 kWh/3000W high power"
+      ],
+      "group": "Dengfeng",
+      "new": false,
+      "bucket": "Energía",
+      "halls": [
+        "15.4"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "0871755314",
+      "name": "Minmax Energy",
+      "legalName": "minmax energy technology co.,ltd",
+      "category": "Packs de batería personalizados",
+      "priority": "Alternativa",
+      "day": 17,
+      "area": "C",
+      "hall": "16.3",
+      "stand": "16.3B31",
+      "allBooths": "16.3B31",
+      "notes": "Packs para telecom y seguridad.",
+      "source": "https://365.cantonfair.org.cn/en-US/shops?id=0871755314",
+      "evidence": "Catálogo oficial, sesión 140, fase 1",
+      "products": [
+        "ELU System LFP LiFePO4 Battery Pack",
+        "GPS Tracker Battery Pack LiPo Battery",
+        "Medical Device Batteries Li-ion",
+        "Minmax LiFePO4 Battery Pack IFR32650 Batteries 4S4P 12.8 V 20Ah 281.6Wh",
+        "Minmax Lithium Ion Battery Pack 10.8V 5800mAh 62.64Wh",
+        "Minmax Rechargeable Li Ion Battery Pack 3S2P Secondary IRC18650 Batteries 11.1V 4000mAh 4.44Wh",
+        "Minmax Rechargeable Lithium Ion Battery Pack 3.6V 30Ah Secondary LIC 26650 Batteries 1S6P",
+        "Minmax Secondary Li Ion Battery Pack 3.6 V 3350mAh LIC18650 Battery 12.06Wh for Blood Pressure Meter",
+        "Minmax Secondary Li Ion Battery Pack 3350mAh 3.6V Rechargeable 18650 Batteries 1S1P Metal Detector",
+        "Security Monitor Batteries Li-ion with fuel gauge"
+      ],
+      "group": "Minmax Energy",
+      "new": false,
+      "bucket": "Energía",
+      "halls": [
+        "16.3"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "1644427966",
+      "name": "Kaiying",
+      "legalName": "Kaiying Power Supply & Electrical Equip Co., Ltd",
+      "category": "Baterías VRLA",
+      "priority": "Alternativa",
+      "day": 17,
+      "area": "C",
+      "hall": "16.3",
+      "stand": "16.3E29-31",
+      "allBooths": "16.3E29-31",
+      "notes": "Plomo VRLA.",
+      "source": "https://365.cantonfair.org.cn/en-US/shops?id=1644427966",
+      "evidence": "Catálogo oficial, sesión 140, fase 1",
+      "products": [
+        "VALVE REGULATED SEALED LEAD ACID BATTERY 12V1.2AH",
+        "VALVE REGULATED SEALED LEAD ACID BATTERY 12V100AH",
+        "VALVE REGULATED SEALED LEAD ACID BATTERY 12V10AH",
+        "VALVE REGULATED SEALED LEAD ACID BATTERY 12V2.9AH",
+        "VALVE REGULATED SEALED LEAD ACID BATTERY 12V4.5AH",
+        "VALVE REGULATED SEALED LEAD ACID BATTERY 12V7AH",
+        "VALVE REGULATED SEALED LEAD ACID BATTERY 12V9AH",
+        "VALVE REGULATED SEALED LEAD ACID BATTERY 24V5AH",
+        "VALVE REGULATED SEALED LEAD ACID BATTERY 4V4AH",
+        "VALVE REGULATED SEALED LEAD ACID BATTERY 4V6AH",
+        "VALVE REGULATED SEALED LEAD ACID BATTERY 6V10AH",
+        "VALVE REGULATED SEALED LEAD ACID BATTERY 6V4AH",
+        "VALVE REGULATED SEALED LEAD ACID BATTERY HR12-34W",
+        "VALVE REGULATED SEALED LEAD ACID BATTERY YTX4L-BS",
+        "VALVE REGULATED SEALED LEAD ACID BATTERY YTX7A-BS"
+      ],
+      "group": "Kaiying",
+      "new": false,
+      "bucket": "Energía",
+      "halls": [
+        "16.3"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "1918304958",
+      "name": "Xinghe / BAKTH",
+      "legalName": "Shenzhen Xinghe Circuit Co., Ltd.",
+      "category": "Celdas y packs LFP",
+      "priority": "Alternativa",
+      "day": 17,
+      "area": "C",
+      "hall": "16.3",
+      "stand": "16.3H15",
+      "allBooths": "16.3H15",
+      "notes": "Celdas LFP y packs.",
+      "source": "https://365.cantonfair.org.cn/en-US/shops?id=1918304958",
+      "evidence": "Catálogo oficial, sesión 140, fase 1",
+      "products": [
+        "18650-2s2p battery IEC62133 7.2V 6.2Ah",
+        "BAKTH-32700FE-4S17P LiFePO4 battery for Golf Cart",
+        "LiFePO4 Battery Rechargeable 3.2V 206Ah",
+        "Lithium Polymer Battery LP-422339-PACK 3.7V 350mAh",
+        "Lithium Polymer Battery LP-443440-1S-3M 3.7V 560mAh",
+        "Lithium Polymer Battery LP-922543-1S-3M30 3.7V 1050mAh",
+        "Lithium ion Battery BAKTH-21700-2S-3 7.2V 4800mAh 34.56Wh",
+        "Lithium ion battery BAKTH-18650CA-2S-3J 7.2V 2250mAh",
+        "Rechargeable Lithium-ion Polymer Battery 3.7V 350mAh LP-422339-PACK"
+      ],
+      "group": "Xinghe / BAKTH",
+      "new": false,
+      "bucket": "Energía",
+      "halls": [
+        "16.3"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "2558977057",
+      "name": "NPP Guangzhou",
+      "legalName": "GUANGZHOU NPP NEW ENERGY CO., LTD",
+      "category": "Baterías para UPS",
+      "priority": "Alternativa",
+      "day": 17,
+      "area": "C",
+      "hall": "16.3",
+      "stand": "16.3H23",
+      "allBooths": "16.3H23",
+      "notes": "Grupo NPP.",
+      "source": "https://365.cantonfair.org.cn/en-US/shops?id=2558977057",
+      "evidence": "Catálogo oficial, sesión 140, fase 1",
+      "products": [
+        "12V200AH DEEP CYCLE SOLAR BATTERY",
+        "12V7AH UPS BATTERY"
+      ],
+      "group": "NPP",
+      "new": false,
+      "bucket": "Energía",
+      "halls": [
+        "16.3"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "2348033973",
+      "name": "Shenyang Lanjian",
+      "legalName": "Shenyang Lanjian Technology Co,.Ltd",
+      "category": "BESS industrial",
+      "priority": "Alternativa",
+      "day": 17,
+      "area": "C",
+      "hall": "16.3",
+      "stand": "16.3I25",
+      "allBooths": "16.3I25",
+      "notes": "Almacenamiento en contenedor.",
+      "source": "https://365.cantonfair.org.cn/en-US/shops?id=2348033973",
+      "evidence": "Catálogo oficial, sesión 140, fase 1",
+      "products": [
+        "Industrial Energy Storage System BESS Container"
+      ],
+      "group": "Shenyang Lanjian",
+      "new": false,
+      "bucket": "Energía",
+      "halls": [
+        "16.3"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "web-mk-energy",
+      "name": "MK Energy",
+      "legalName": "MK Energy",
+      "category": "LiFePO4 para rack y UPS",
+      "priority": "Alternativa",
+      "day": 17,
+      "area": "C",
+      "hall": "16.3",
+      "stand": "16.3J13",
+      "allBooths": "16.3J13",
+      "notes": "Rack-mount y sistemas UPS de alta tensión.",
+      "source": "https://www.mkenergycn.com/ru/mk-energy-at-the-140th-canton-fair-2026-explore-the-future-of-energy-storage-solutions/",
+      "evidence": "Anuncio del expositor para octubre de 2026",
+      "products": [],
+      "group": "MK Energy",
+      "new": false,
+      "bucket": "Red e IoT",
+      "halls": [
+        "16.3"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "1823650146",
+      "name": "DC Times",
+      "legalName": "DC Times Technology Inc.",
+      "category": "Baterías de piso y solar",
+      "priority": "Alternativa",
+      "day": 17,
+      "area": "C",
+      "hall": "16.4",
+      "stand": "16.4I40",
+      "allBooths": "16.4I40",
+      "notes": "Packs 24/48 V.",
+      "source": "https://365.cantonfair.org.cn/en-US/shops?id=1823650146",
+      "evidence": "Catálogo oficial, sesión 140, fase 1",
+      "products": [
+        "24V Stackable Floor Type Power Can (smart BMS)",
+        "48V Stackable Floor Type Power Can (smart BMS)"
+      ],
+      "group": "DC Times",
+      "new": false,
+      "bucket": "Energía",
+      "halls": [
+        "16.4"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "2588077980",
+      "name": "Hefei Lasun",
+      "legalName": "HEFEI LASUN COMMUNICATION CO.,LTD",
+      "category": "Cableado para data center",
+      "priority": "Complemento",
+      "day": 17,
+      "area": "C",
+      "hall": "14.3",
+      "stand": "14.3H01-02",
+      "allBooths": "14.3H01-02",
+      "notes": "Patch cords de data center.",
+      "source": "https://365.cantonfair.org.cn/en-US/shops?id=2588077980",
+      "evidence": "Catálogo oficial, sesión 140, fase 1",
+      "products": [
+        "LASUN Data Center Patch Cords"
+      ],
+      "group": "Hefei Lasun",
+      "new": false,
+      "bucket": "Red e IoT",
+      "halls": [
+        "14.3"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "1121492237",
+      "name": "Owire",
+      "legalName": "Shenzhen Owire Co..Ltd",
+      "category": "Cableado óptico",
+      "priority": "Complemento",
+      "day": 17,
+      "area": "C",
+      "hall": "15.3",
+      "stand": "15.3D27-29",
+      "allBooths": "15.3D27-29, 15.3E16-18",
+      "notes": "Cable óptico y otros cables.",
+      "source": "https://365.cantonfair.org.cn/en-US/shops?id=1121492237",
+      "evidence": "Catálogo oficial, sesión 140, fase 1",
+      "products": [
+        "GYXTW53",
+        "MGXTSV Fiber Optic Cable"
+      ],
+      "group": "Owire",
+      "new": false,
+      "bucket": "Red e IoT",
+      "halls": [
+        "15.3"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "1995508236",
+      "name": "Blue Jay",
+      "legalName": "Chongqing Blue Jay Technology Co.,Ltd",
+      "category": "Rectificadores y medición",
+      "priority": "Complemento",
+      "day": 17,
+      "area": "C",
+      "hall": "16.3",
+      "stand": "16.3F35",
+      "allBooths": "16.3F35",
+      "notes": "Rectificadores y medición eléctrica. El catálogo incluye 48 V DC / 2000 W; confirmar polaridad, salida y monitoreo.",
+      "source": "https://365.cantonfair.org.cn/en-US/shops?id=1995508236",
+      "evidence": "Catálogo oficial, sesión 140, fase 1",
+      "products": [
+        "48VDC 2000W Battery Charger Rectifier",
+        "Rack Mount Type Battery Rectifier"
+      ],
+      "group": "Blue Jay",
+      "new": false,
+      "bucket": "Energía",
+      "halls": [
+        "16.3"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "web-ytl",
+      "name": "YTL",
+      "legalName": "YTL",
+      "category": "Medición de energía",
+      "priority": "Complemento",
+      "day": 17,
+      "area": "C",
+      "hall": "16.3",
+      "stand": "16.3G24",
+      "allBooths": "16.3G24",
+      "notes": "Medición DIN AC/DC.",
+      "source": "https://www.ytl-e.com/news/exhibition-news/meet-ytl-at-the-140th-canton-fair-2026-booth-16.html",
+      "evidence": "Anuncio del expositor para octubre de 2026",
+      "products": [],
+      "group": "YTL",
+      "new": false,
+      "bucket": "Energía",
+      "halls": [
+        "16.3"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "2384446400",
+      "name": "Takfly",
+      "legalName": "Takfly Communications Co.,Ltd.",
+      "category": "Conectividad óptica",
+      "priority": "Complemento",
+      "day": 17,
+      "area": "C",
+      "hall": "16.3",
+      "stand": "16.3H16",
+      "allBooths": "16.3H16",
+      "notes": "Patch cords, jumpers y accesorios ópticos.",
+      "source": "https://365.cantonfair.org.cn/en-US/shops?id=2384446400",
+      "evidence": "Catálogo oficial, sesión 140, fase 1",
+      "products": [
+        "Fiber optic communication accessories",
+        "Fiber optic jumper"
+      ],
+      "group": "Takfly",
+      "new": false,
+      "bucket": "Red e IoT",
+      "halls": [
+        "16.3"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "1731436637",
+      "name": "AIMO / Elmer",
+      "legalName": "Zhuhai Elmer Technology Co Ltd",
+      "category": "Herramientas para cuadrillas",
+      "priority": "Complemento",
+      "day": 16,
+      "area": "D",
+      "hall": "17.2",
+      "stand": "17.2G03-04",
+      "allBooths": "17.2G03-04",
+      "notes": "Rotulado durable de cables, ODF y activos.",
+      "products": [
+        "Rotuladora por transferencia térmica",
+        "Etiquetas para cable y activos"
+      ],
+      "source": "https://365.cantonfair.org.cn/en-US/shops?id=1731436637",
+      "evidence": "Catálogo oficial · sesión 140 · fase 1 · verificado 15/10/2026",
+      "group": "AIMO / Elmer",
+      "new": false,
+      "productSource": "https://www.aimotech.com/product-category/label-tape-printer/",
+      "bucket": "Cómputo",
+      "halls": [
+        "17.2"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "2527687346",
+      "name": "SUPVAN",
+      "legalName": "BEIJING SUPVAN INFORMATION TECHNOLOGY CO,.LTD.",
+      "category": "Herramientas para cuadrillas",
+      "priority": "Complemento",
+      "day": 16,
+      "area": "D",
+      "hall": "17.2",
+      "stand": "17.2J39",
+      "allBooths": "17.2J39",
+      "notes": "Alternativa a AIMO, junto al sector de ELSKY.",
+      "products": [
+        "Rotuladoras industriales",
+        "Consumibles de identificación"
+      ],
+      "source": "https://365.cantonfair.org.cn/en-US/shops?id=2527687346",
+      "evidence": "Catálogo oficial · sesión 140 · fase 1 · verificado 15/10/2026",
+      "group": "SUPVAN",
+      "new": false,
+      "productSource": "",
+      "bucket": "Cómputo",
+      "halls": [
+        "17.2"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "2545289259",
+      "name": "Harvilon",
+      "legalName": "SHENZHEN HARVILON TECHNOLOGY CO.,LIMITED",
+      "category": "Red e IoT",
+      "priority": "Complemento",
+      "day": 16,
+      "area": "D",
+      "hall": "17.2",
+      "stand": "17.2J02",
+      "allBooths": "17.2J02",
+      "notes": "CPE 4G/5G, outdoor y MiFi. Confirmar bandas, antenas, bridge y gestión por modelo.",
+      "products": [
+        "B72 5G Outdoor Router PoE",
+        "B73",
+        "MF511 5G MiFi WiFi 6"
+      ],
+      "source": "https://365.cantonfair.org.cn/en-US/shops?id=2545289259",
+      "evidence": "Catálogo oficial · sesión 140 · fase 1 · verificado 15/10/2026",
+      "group": "Harvilon",
+      "new": false,
+      "productSource": "",
+      "bucket": "Routers",
+      "halls": [
+        "17.2"
+      ],
+      "routerFocus": true
+    },
+    {
+      "id": "2582375891",
+      "name": "Yisheng",
+      "legalName": "Shenzhen Yisheng Technology Co., Ltd.",
+      "category": "Mini PCs y edge AI",
+      "priority": "Complemento",
+      "day": 16,
+      "area": "D",
+      "hall": "18.2",
+      "stand": "18.2D44",
+      "allBooths": "18.2D44",
+      "notes": "AIBox-OPS3576 / ARM y placas embebidas.",
+      "products": [
+        "AIBox-OPS3576",
+        "Placas AIoT y cartelería"
+      ],
+      "source": "https://365.cantonfair.org.cn/en-US/shops?id=2582375891",
+      "evidence": "Catálogo oficial · sesión 140 · fase 1 · verificado 15/10/2026",
+      "group": "Yisheng",
+      "new": false,
+      "productSource": "",
+      "bucket": "Cómputo",
+      "halls": [
+        "18.2"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "2383341655",
+      "name": "VCELINK / Hongjie",
+      "legalName": "HANGZHOU HONGJIE ELECTRONICS CO.,LTD",
+      "category": "Herramientas para cuadrillas",
+      "priority": "Complemento",
+      "day": 16,
+      "area": "D",
+      "hall": "18.2",
+      "stand": "18.2L14",
+      "allBooths": "18.2L14",
+      "notes": "Crimpeadoras RJ45 y accesorios de red.",
+      "products": [
+        "Crimpeadora RJ45",
+        "Accesorios de red"
+      ],
+      "source": "https://365.cantonfair.org.cn/en-US/shops?id=2383341655",
+      "evidence": "Catálogo oficial · sesión 140 · fase 1 · verificado 15/10/2026",
+      "group": "VCELINK / Hongjie",
+      "new": false,
+      "productSource": "",
+      "bucket": "Cómputo",
+      "halls": [
+        "18.2"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "2357233703",
+      "name": "Four-Faith",
+      "legalName": "Fujian Four-Faith Digital Technology Group Co. LTD",
+      "category": "Red e IoT",
+      "priority": "Esencial",
+      "day": 16,
+      "area": "D",
+      "hall": "20.1",
+      "stand": "20.1E12-13",
+      "allBooths": "20.1E12-13，20.1D34-35",
+      "notes": "Routers industriales 4G/5G y gateways. Medir failover y revisar gestión local y acceso al POP.",
+      "products": [
+        "Routers 4G/5G industriales",
+        "Gateways IoT",
+        "CPE"
+      ],
+      "source": "https://365.cantonfair.org.cn/en-US/shops?id=2357233703",
+      "evidence": "Catálogo oficial · sesión 140 · fase 1 · verificado 15/10/2026",
+      "group": "Four-Faith",
+      "new": false,
+      "productSource": "https://www.fourfaith.com/product-news/-5g-dual-sim-dual-mode-industrial-router.html",
+      "bucket": "Routers",
+      "halls": [
+        "20.1"
+      ],
+      "routerFocus": true
+    },
+    {
+      "id": "2017308623",
+      "name": "SUPU",
+      "legalName": "ZHEJIANG SUPU TECHNOLOGY CO.,LTD.",
+      "category": "Idea para explorar",
+      "priority": "Exploración",
+      "day": 16,
+      "area": "D",
+      "hall": "19.1",
+      "stand": "19.1G27",
+      "allBooths": "19.1G27",
+      "notes": "Destrucción física de medios y residuos electrónicos.",
+      "products": [
+        "Destrucción de datos",
+        "Trituradoras de residuos electrónicos"
+      ],
+      "source": "https://365.cantonfair.org.cn/en-US/shops?id=2017308623",
+      "evidence": "Catálogo oficial · sesión 140 · fase 1 · verificado 15/10/2026",
+      "group": "SUPU",
+      "new": false,
+      "productSource": "https://www.supushredder.com/news/we-sincerely-invite-everyone-to-participate-in-85635355.html",
+      "bucket": "Otros",
+      "halls": [
+        "19.1"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "1485717785",
+      "name": "UNI-T",
+      "legalName": "UNI-TREND TECHNOLOGY (CHINA) CO., LTD.",
+      "category": "Instrumentos y térmica",
+      "priority": "Esencial",
+      "day": 17,
+      "area": "C",
+      "hall": "14.3",
+      "stand": "14.3B32-33",
+      "allBooths": "14.3B32-33，14.3C11-12",
+      "notes": "C con otro enfoque: cámara térmica, pinza amperométrica e instrumentos para mantenimiento eléctrico del POP.",
+      "products": [
+        "Cámaras térmicas",
+        "Instrumentos eléctricos",
+        "Medición ambiental"
+      ],
+      "source": "https://365.cantonfair.org.cn/en-US/shops?id=1485717785",
+      "evidence": "Catálogo oficial · sesión 140 · fase 1 · verificado 15/10/2026",
+      "group": "UNI-T",
+      "new": false,
+      "productSource": "https://www.uni-trend.com/uni-t-at-the-140th-canton-fair-2026-booth-14-3b32-33-3c11-12/",
+      "bucket": "Instrumentos",
+      "halls": [
+        "14.3"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "1894748421",
+      "name": "Guide Sensmart",
+      "legalName": "Wuhan Guide Sensmart Tech Co.,Ltd.",
+      "category": "Instrumentos y térmica",
+      "priority": "Complemento",
+      "day": 17,
+      "area": "C",
+      "hall": "14.3",
+      "stand": "14.3E16-17",
+      "allBooths": "14.3E16-17，14.3D28-29",
+      "notes": "Comparar cámaras térmicas para cuadros, fuentes, UPS y conectores calientes.",
+      "products": [
+        "Cámaras térmicas portátiles",
+        "Módulos y sistemas térmicos"
+      ],
+      "source": "https://365.cantonfair.org.cn/en-US/shops?id=1894748421",
+      "evidence": "Catálogo oficial · sesión 140 · fase 1 · verificado 15/10/2026",
+      "group": "Guide Sensmart",
+      "new": false,
+      "productSource": "",
+      "bucket": "Instrumentos",
+      "halls": [
+        "14.3"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "1172888773",
+      "name": "YATO",
+      "legalName": "YATO TOOLS(SHANGHAI) CO.,LTD.",
+      "category": "Herramientas para cuadrillas",
+      "priority": "Opcional",
+      "day": 17,
+      "area": "B",
+      "hall": "13.2",
+      "stand": "13.2J09-12",
+      "allBooths": "13.2J09-12，13.2I37-40",
+      "notes": "Desvío opcional al área B si quieren equipar cuadrillas: herramienta manual, medición y protección.",
+      "products": [
+        "Herramientas manuales",
+        "Medición",
+        "Crimpeadoras"
+      ],
+      "source": "https://365.cantonfair.org.cn/en-US/shops?id=1172888773",
+      "evidence": "Catálogo oficial · sesión 140 · fase 1 · verificado 15/10/2026",
+      "group": "YATO",
+      "new": false,
+      "productSource": "",
+      "bucket": "Cómputo",
+      "halls": [
+        "13.2"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "2322349821",
+      "name": "COMFAST",
+      "legalName": "Shenzhen Four Seas Global Link Network Technology Co., Ltd",
+      "category": "Routers, WiFi y enlaces",
+      "priority": "Esencial",
+      "day": 16,
+      "area": "D",
+      "hall": "18.2",
+      "stand": "18.2K26",
+      "allBooths": "18.2K26",
+      "notes": "Routers WiFi 6/Mesh/4G/5G, AP, bridges y switches PoE. Pedir demo de gestión local y del modelo que cotizan.",
+      "products": [
+        "Routers WiFi 6/Mesh/4G/5G",
+        "AP y bridges inalámbricos",
+        "Switches PoE"
+      ],
+      "source": "https://365.cantonfair.org.cn/en-US/shops?id=2322349821",
+      "evidence": "Catálogo oficial, sesión 140, fase 1 · verificado 16/10/2026",
+      "group": "COMFAST",
+      "new": true,
+      "productSource": "https://cn.linkedin.com/in/cassie-hu-856284177",
+      "bucket": "Routers",
+      "halls": [
+        "18.2"
+      ],
+      "routerFocus": true
+    },
+    {
+      "id": "2342040372",
+      "name": "PIX-LINK / Lavid",
+      "legalName": "Chongqing Lavid Industrial Co., Ltd",
+      "category": "Routers WiFi residenciales",
+      "priority": "Esencial",
+      "day": 16,
+      "area": "D",
+      "hall": "17.2",
+      "stand": "17.2D42-44",
+      "allBooths": "17.2D42-44",
+      "notes": "Routers y repetidores residenciales. Pedir AX1800/AX3000, puertos gigabit, PPPoE/VLAN y gestión ISP.",
+      "products": [
+        "Routers WiFi",
+        "AX02 WiFi 6 AX1800 (web del fabricante)",
+        "Repetidores y extensores"
+      ],
+      "source": "https://365.cantonfair.org.cn/en-US/shops?id=2342040372",
+      "evidence": "Catálogo oficial, sesión 140, fase 1 · verificado 16/10/2026",
+      "group": "PIX-LINK / Lavid",
+      "new": true,
+      "productSource": "https://www.pix-link.com/lv-ax02",
+      "bucket": "Routers",
+      "halls": [
+        "17.2"
+      ],
+      "routerFocus": true
+    },
+    {
+      "id": "2540881341",
+      "name": "Signalinks / SignalFi",
+      "legalName": "Signalinks Communication Technology Co., Ltd.",
+      "category": "Routers y conectividad 4G/5G",
+      "priority": "Esencial",
+      "day": 16,
+      "area": "D",
+      "hall": "18.2",
+      "stand": "18.2K22",
+      "allBooths": "18.2K22",
+      "notes": "Terminales y conectividad 4G/5G. Confirmar módem, bandas para Argentina, SIM libre y bridge.",
+      "products": [
+        "Terminales y soluciones 4G/5G",
+        "Routers y WiFi portátil"
+      ],
+      "source": "https://365.cantonfair.org.cn/en-US/shops?id=2540881341",
+      "evidence": "Catálogo oficial, sesión 140, fase 1 · verificado 16/10/2026",
+      "group": "Signalinks / SignalFi",
+      "new": true,
+      "productSource": "https://www.signalinks.com/pages/about-signalinks",
+      "bucket": "Routers",
+      "halls": [
+        "18.2"
+      ],
+      "routerFocus": true
+    },
+    {
+      "id": "2441054903",
+      "name": "Wolon Cloud Network",
+      "legalName": "Wuhan Wolon Cloud Network Communication Technology Co.,Ltd",
+      "category": "Switches, SFP y OLT/ONU",
+      "priority": "Complemento",
+      "day": 16,
+      "area": "D",
+      "hall": "18.2",
+      "stand": "18.2M12",
+      "allBooths": "18.2M12",
+      "notes": "Switches, SFP y OLT/ONU. Pedir modelos y compatibilidad de los módulos ópticos.",
+      "products": [
+        "SFP y módulos ópticos",
+        "Switches de red",
+        "OLT / ONU"
+      ],
+      "source": "https://365.cantonfair.org.cn/en-US/shops?id=2441054903",
+      "evidence": "Catálogo oficial, sesión 140, fase 1 · verificado 16/10/2026",
+      "group": "Wolon Cloud Network",
+      "new": true,
+      "productSource": "",
+      "bucket": "Red e IoT",
+      "halls": [
+        "18.2"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "2683896374",
+      "name": "SHENGWEI",
+      "legalName": "Shenzhen Innovation Shengwei Technology Co., Ltd.",
+      "category": "Acceso GPON y óptica",
+      "priority": "Complemento",
+      "day": 16,
+      "area": "D",
+      "hall": "17.2",
+      "stand": "17.2J06",
+      "allBooths": "17.2J06",
+      "notes": "Acceso GPON, transceptores y fibra. Pedir interoperabilidad con su OLT y modelos de demostración.",
+      "products": [
+        "GPON OLT/ONU",
+        "Transceptores",
+        "Fibra y accesorios"
+      ],
+      "source": "https://www.shengweiglobal.com/news/",
+      "evidence": "Catálogo oficial, sesión 140, fase 1 · verificado 16/10/2026 + anuncio de la marca",
+      "group": "SHENGWEI",
+      "new": true,
+      "productSource": "https://www.shengweiglobal.com/news/",
+      "bucket": "Red e IoT",
+      "halls": [
+        "17.2"
+      ],
+      "routerFocus": false
+    },
+    {
+      "id": "1963604036",
+      "name": "LTIME",
+      "legalName": "Shenzhen LTIME In-Vehicle Entertainment System Co., LTD",
+      "category": "Routers para vehículos",
+      "priority": "Complemento",
+      "day": 17,
+      "area": "B",
+      "hall": "10.3",
+      "stand": "10.3M09",
+      "allBooths": "10.3M09",
+      "notes": "Routers y WiFi para buses. Considerarlo si tienen clientes de flotas.",
+      "products": [
+        "Onboard Internet Router",
+        "LTIME On board wireless router",
+        "Sistemas de conectividad en buses"
+      ],
+      "source": "https://365.cantonfair.org.cn/en-US/shops?id=1963604036",
+      "evidence": "Catálogo oficial, sesión 140, fase 1 · verificado 16/10/2026",
+      "group": "LTIME",
+      "new": true,
+      "productSource": "https://www.ltime-cn.com/",
+      "bucket": "Routers",
+      "halls": [
+        "10.3"
+      ],
+      "routerFocus": true
+    }
+  ],
+  "routes": {
+    "15": {
+      "title": "D completado",
+      "subtitle": "Referencia del primer día",
+      "state": "Historial · 15 de octubre",
+      "intro": "Confirmaron que el 15 recorrieron todos los proveedores de D marcados en la guía anterior. Quedan registrados como visitados. Hoy se priorizan fabricantes de red nuevos y las vueltas se dejan opcionales.",
+      "stops": [
+        {
+          "id": "2462254563",
+          "block": "09:30-09:50",
+          "why": "Primera referencia de RAM. Identificar fabricante y chips.",
+          "optional": false
+        },
+        {
+          "id": "2458766275",
+          "block": "09:55-10:20",
+          "why": "Energía y gabinetes de nodos remotos.",
+          "optional": false
+        },
+        {
+          "id": "2445356692",
+          "block": "10:25-11:05",
+          "why": "SSD/NVMe y RAM. Lista de materiales y muestra.",
+          "optional": false
+        },
+        {
+          "id": "2370339229",
+          "block": "11:15-11:50",
+          "why": "Segunda comparación de SSD y memoria.",
+          "optional": false
+        },
+        {
+          "id": "2412570608",
+          "block": "12:00-12:45",
+          "why": "Storage servers y configuración GPU/AI.",
+          "optional": false
+        },
+        {
+          "id": "2386743368",
+          "block": "13:30-14:10",
+          "why": "Mini PCs/IPC modernos y montaje en rack.",
+          "optional": false
+        },
+        {
+          "id": "2480770708",
+          "block": "14:20-14:35",
+          "why": "Mini PC alternativo. Descartar rápido si no aporta ficha técnica.",
+          "optional": false
+        },
+        {
+          "id": "1440813602",
+          "block": "14:45-15:05",
+          "why": "OTDR/fusionadora para cuadrillas de fibra.",
+          "optional": false
+        },
+        {
+          "id": "1396706775",
+          "block": "15:10-15:30",
+          "why": "Bandejas y PDU. Preguntar por tomas conmutables/SNMP.",
+          "optional": false
+        },
+        {
+          "id": "2473260832",
+          "block": "15:35-16:00",
+          "why": "Nueva línea Mini PC y cámara térmica para mantenimiento.",
+          "optional": false
+        },
+        {
+          "id": "2566785642",
+          "block": "16:20-17:05",
+          "why": "Mini PC industrial, firewall y edge AI.",
+          "optional": false
+        },
+        {
+          "id": "web-freshliance",
+          "block": "17:10-17:40",
+          "why": "Sensores para POP. Si falta tiempo, priorizar reunión de computación.",
+          "optional": false
+        }
+      ]
+    },
+    "16": {
+      "title": "C primero",
+      "subtitle": "15.2 → 15.3 → 16.3",
+      "state": "16 de octubre",
+      "intro": "Cinco paradas en C. Después, dos routers opcionales en D.",
+      "stops": [
+        {
+          "id": "web-rpt-power-renergy",
+          "block": "Mañana · 25 min",
+          "why": "Batería LFP de rack: BMS, capacidad y garantía.",
+          "optional": false
+        },
+        {
+          "id": "0998375054",
+          "block": "Mañana · 35 min",
+          "why": "UPS: potencia, autonomía y gestión remota.",
+          "optional": false
+        },
+        {
+          "id": "1657627001",
+          "block": "Mañana · 25 min",
+          "why": "Segunda oferta de batería para telecom/UPS.",
+          "optional": false
+        },
+        {
+          "id": "0754811467",
+          "block": "Tarde · 35 min",
+          "why": "Comparar UPS, bypass y compatibilidad del banco.",
+          "optional": false
+        },
+        {
+          "id": "1995508236",
+          "block": "Tarde · 25 min",
+          "why": "Rectificador 48 V y medición para nodos. Confirmar salida y monitoreo.",
+          "optional": false
+        },
+        {
+          "id": "2342040372",
+          "block": "Después de C · 30 min",
+          "why": "Router WiFi 6 para abonados.",
+          "optional": true
+        },
+        {
+          "id": "2322349821",
+          "block": "Después de C · 40 min",
+          "why": "Routers, AP y enlaces inalámbricos.",
+          "optional": true
+        }
+      ]
+    },
+    "17": {
+      "title": "Routers: demos y muestras",
+      "subtitle": "17.2 → 18.2 → 20.1",
+      "state": "17 de octubre",
+      "intro": "Cuatro fabricantes. Comparar modelos, gestión y garantía antes de pedir muestras.",
+      "stops": [
+        {
+          "id": "2342040372",
+          "block": "Mañana · 40 min",
+          "why": "Residencial: PPPoE, VLAN, Mesh y gestión ISP.",
+          "optional": false
+        },
+        {
+          "id": "2540881341",
+          "block": "Mañana · 35 min",
+          "why": "CPE celular: módem, bandas, SIM libre y bridge.",
+          "optional": false
+        },
+        {
+          "id": "2322349821",
+          "block": "Tarde · 50 min",
+          "why": "WiFi/AP/bridge: puertos, PoE, controladora y caudal.",
+          "optional": false
+        },
+        {
+          "id": "2357233703",
+          "block": "Tarde · 40 min",
+          "why": "Industrial: failover y acceso remoto al POP.",
+          "optional": false
+        }
+      ]
+    }
+  },
+  "halls": [
+    {
+      "id": "1.1",
+      "x": 265,
+      "y": 267,
+      "w": 30,
+      "h": 38,
+      "area": "A",
+      "categories": [
+        "xcljhgcp"
+      ]
+    },
+    {
+      "id": "1.2",
+      "x": 265,
+      "y": 213,
+      "w": 30,
+      "h": 38,
+      "area": "A",
+      "categories": [
+        "jydq"
+      ]
+    },
+    {
+      "id": "2.1",
+      "x": 300,
+      "y": 267,
+      "w": 30,
+      "h": 38,
+      "area": "A",
+      "categories": [
+        "jydq"
+      ]
+    },
+    {
+      "id": "2.2",
+      "x": 300,
+      "y": 213,
+      "w": 30,
+      "h": 38,
+      "area": "A",
+      "categories": [
+        "jydq"
+      ]
+    },
+    {
+      "id": "3.1",
+      "x": 335,
+      "y": 267,
+      "w": 30,
+      "h": 38,
+      "area": "A",
+      "categories": [
+        "jydq"
+      ]
+    },
+    {
+      "id": "3.2",
+      "x": 335,
+      "y": 213,
+      "w": 30,
+      "h": 38,
+      "area": "A",
+      "categories": [
+        "jydq"
+      ]
+    },
+    {
+      "id": "4.1",
+      "x": 370,
+      "y": 267,
+      "w": 30,
+      "h": 38,
+      "area": "A",
+      "categories": [
+        "jydq"
+      ]
+    },
+    {
+      "id": "4.2",
+      "x": 370,
+      "y": 213,
+      "w": 30,
+      "h": 38,
+      "area": "A",
+      "categories": [
+        "jydq"
+      ]
+    },
+    {
+      "id": "5.1",
+      "x": 405,
+      "y": 267,
+      "w": 30,
+      "h": 38,
+      "area": "A",
+      "categories": [
+        "jydq"
+      ]
+    },
+    {
+      "id": "5.2",
+      "x": 405,
+      "y": 213,
+      "w": 30,
+      "h": 38,
+      "area": "A",
+      "categories": [
+        "jydq"
+      ]
+    },
+    {
+      "id": "6.1",
+      "x": 331,
+      "y": 118,
+      "w": 30,
+      "h": 38,
+      "area": "A",
+      "categories": [
+        "tyjx"
+      ]
+    },
+    {
+      "id": "7.1",
+      "x": 366,
+      "y": 118,
+      "w": 30,
+      "h": 19,
+      "area": "A",
+      "categories": [
+        "tyjx"
+      ]
+    },
+    {
+      "id": "8.1",
+      "x": 401,
+      "y": 118,
+      "w": 30,
+      "h": 38,
+      "area": "A",
+      "categories": [
+        "tyjx",
+        "xnyqcjzhcx"
+      ]
+    },
+    {
+      "id": "4.0",
+      "x": 436,
+      "y": 118,
+      "w": 30,
+      "h": 19,
+      "area": "A",
+      "categories": [
+        "gcjx"
+      ]
+    },
+    {
+      "id": "5.0",
+      "x": 471,
+      "y": 118,
+      "w": 30,
+      "h": 12,
+      "area": "A",
+      "categories": [
+        "nyjx"
+      ]
+    },
+    {
+      "id": "6.0",
+      "x": 339,
+      "y": 92,
+      "w": 30,
+      "h": 19,
+      "area": "A",
+      "categories": [
+        "tyjx"
+      ]
+    },
+    {
+      "id": "8.0",
+      "x": 409,
+      "y": 92,
+      "w": 30,
+      "h": 19,
+      "area": "A",
+      "categories": [
+        "tyjx"
+      ]
+    },
+    {
+      "id": "17.1",
+      "x": 45,
+      "y": 267,
+      "w": 30,
+      "h": 38,
+      "area": "D",
+      "categories": [
+        "dldl"
+      ]
+    },
+    {
+      "id": "17.2",
+      "x": 45,
+      "y": 213,
+      "w": 30,
+      "h": 38,
+      "area": "D",
+      "categories": [
+        "dzxfp"
+      ]
+    },
+    {
+      "id": "18.1",
+      "x": 80,
+      "y": 267,
+      "w": 30,
+      "h": 38,
+      "area": "D",
+      "categories": [
+        "dldl",
+        "jgjx"
+      ]
+    },
+    {
+      "id": "18.2",
+      "x": 80,
+      "y": 213,
+      "w": 30,
+      "h": 38,
+      "area": "D",
+      "categories": [
+        "dzxfp"
+      ]
+    },
+    {
+      "id": "19.1",
+      "x": 115,
+      "y": 267,
+      "w": 30,
+      "h": 38,
+      "area": "D",
+      "categories": [
+        "jgjx"
+      ]
+    },
+    {
+      "id": "19.2",
+      "x": 115,
+      "y": 213,
+      "w": 30,
+      "h": 38,
+      "area": "D",
+      "categories": [
+        "dzxfp"
+      ]
+    },
+    {
+      "id": "20.1",
+      "x": 150,
+      "y": 267,
+      "w": 30,
+      "h": 38,
+      "area": "D",
+      "categories": [
+        "jgjx",
+        "gyzdh"
+      ]
+    },
+    {
+      "id": "20.2",
+      "x": 150,
+      "y": 213,
+      "w": 30,
+      "h": 38,
+      "area": "D",
+      "categories": [
+        "dzxfp"
+      ]
+    },
+    {
+      "id": "21.2",
+      "x": 213,
+      "y": 228,
+      "w": 18,
+      "h": 22.8,
+      "area": "D",
+      "categories": [
+        "fwjqrzj"
+      ]
+    },
+    {
+      "id": "14.1",
+      "x": 325,
+      "y": 515,
+      "w": 30,
+      "h": 38,
+      "area": "C",
+      "categories": [
+        "mtc"
+      ]
+    },
+    {
+      "id": "14.2",
+      "x": 325,
+      "y": 465,
+      "w": 30,
+      "h": 38,
+      "area": "C",
+      "categories": [
+        "xny"
+      ]
+    },
+    {
+      "id": "14.3",
+      "x": 325,
+      "y": 415,
+      "w": 30,
+      "h": 38,
+      "area": "C",
+      "categories": [
+        "dzdq"
+      ]
+    },
+    {
+      "id": "14.4",
+      "x": 325,
+      "y": 365,
+      "w": 30,
+      "h": 38,
+      "area": "C",
+      "categories": [
+        "zmcp"
+      ]
+    },
+    {
+      "id": "15.1",
+      "x": 360,
+      "y": 515,
+      "w": 30,
+      "h": 38,
+      "area": "C",
+      "categories": [
+        "mtc"
+      ]
+    },
+    {
+      "id": "15.2",
+      "x": 360,
+      "y": 465,
+      "w": 30,
+      "h": 38,
+      "area": "C",
+      "categories": [
+        "xny",
+        "mtc"
+      ]
+    },
+    {
+      "id": "15.3",
+      "x": 360,
+      "y": 415,
+      "w": 30,
+      "h": 38,
+      "area": "C",
+      "categories": [
+        "dzdq"
+      ]
+    },
+    {
+      "id": "15.4",
+      "x": 360,
+      "y": 365,
+      "w": 30,
+      "h": 38,
+      "area": "C",
+      "categories": [
+        "zmcp"
+      ]
+    },
+    {
+      "id": "16.2",
+      "x": 408,
+      "y": 465,
+      "w": 30,
+      "h": 38,
+      "area": "C",
+      "categories": [
+        "mtc",
+        "zxc"
+      ]
+    },
+    {
+      "id": "16.3",
+      "x": 408,
+      "y": 415,
+      "w": 30,
+      "h": 38,
+      "area": "C",
+      "categories": [
+        "dzdq"
+      ]
+    },
+    {
+      "id": "16.4",
+      "x": 408,
+      "y": 365,
+      "w": 30,
+      "h": 38,
+      "area": "C",
+      "categories": [
+        "zmcp"
+      ]
+    },
+    {
+      "id": "9.1",
+      "x": 530,
+      "y": 267,
+      "w": 30,
+      "h": 38,
+      "area": "B",
+      "categories": [
+        "wj"
+      ]
+    },
+    {
+      "id": "9.2",
+      "x": 530,
+      "y": 225,
+      "w": 30,
+      "h": 38,
+      "area": "B",
+      "categories": [
+        "qcpj",
+        "gj"
+      ]
+    },
+    {
+      "id": "9.3",
+      "x": 530,
+      "y": 183,
+      "w": 30,
+      "h": 38,
+      "area": "B",
+      "categories": [
+        "qcpj"
+      ]
+    },
+    {
+      "id": "10.1",
+      "x": 565,
+      "y": 267,
+      "w": 30,
+      "h": 38,
+      "area": "B",
+      "categories": [
+        "wj"
+      ]
+    },
+    {
+      "id": "10.2",
+      "x": 565,
+      "y": 225,
+      "w": 30,
+      "h": 38,
+      "area": "B",
+      "categories": [
+        "gj"
+      ]
+    },
+    {
+      "id": "10.3",
+      "x": 565,
+      "y": 183,
+      "w": 30,
+      "h": 38,
+      "area": "B",
+      "categories": [
+        "qcpj"
+      ]
+    },
+    {
+      "id": "11.1",
+      "x": 600,
+      "y": 267,
+      "w": 30,
+      "h": 38,
+      "area": "B",
+      "categories": [
+        "wj"
+      ]
+    },
+    {
+      "id": "11.2",
+      "x": 600,
+      "y": 225,
+      "w": 30,
+      "h": 38,
+      "area": "B",
+      "categories": [
+        "gj"
+      ]
+    },
+    {
+      "id": "11.3",
+      "x": 600,
+      "y": 183,
+      "w": 30,
+      "h": 38,
+      "area": "B",
+      "categories": [
+        "qcpj"
+      ]
+    },
+    {
+      "id": "12.1",
+      "x": 614,
+      "y": 123,
+      "w": 30,
+      "h": 38,
+      "area": "B",
+      "categories": [
+        "gj"
+      ]
+    },
+    {
+      "id": "12.2",
+      "x": 614,
+      "y": 81,
+      "w": 30,
+      "h": 38,
+      "area": "B",
+      "categories": [
+        "gj"
+      ]
+    },
+    {
+      "id": "13.1",
+      "x": 649,
+      "y": 123,
+      "w": 30,
+      "h": 38,
+      "area": "B",
+      "categories": [
+        "gj",
+        "wj"
+      ]
+    },
+    {
+      "id": "13.2",
+      "x": 649,
+      "y": 81,
+      "w": 30,
+      "h": 38,
+      "area": "B",
+      "categories": [
+        "gj"
+      ]
+    },
+    {
+      "id": "9.0",
+      "x": 605,
+      "y": 49,
+      "w": 32,
+      "h": 23,
+      "area": "B",
+      "categories": [
+        "nyjx",
+        "gcjx"
+      ]
+    },
+    {
+      "id": "12.0",
+      "x": 640,
+      "y": 49,
+      "w": 32,
+      "h": 23,
+      "area": "B",
+      "categories": [
+        "gcjx"
+      ]
+    },
+    {
+      "id": "13.0",
+      "x": 675,
+      "y": 49,
+      "w": 32,
+      "h": 23,
+      "area": "B",
+      "categories": [
+        "cl"
+      ]
+    }
+  ],
+  "original": [
+    {
+      "day": 15,
+      "time": "09:30-09:50",
+      "area": "D / 17.2",
+      "stop": "Cloud Ridge",
+      "stand": "17.2A01-02",
+      "purpose": "Primera referencia de RAM. Identificar fabricante y chips.",
+      "id": "2462254563"
+    },
+    {
+      "day": 15,
+      "time": "09:55-10:20",
+      "area": "D / 17.2",
+      "stop": "Huijue",
+      "stand": "17.2D25-26 / E23-24",
+      "purpose": "Energía y gabinetes de nodos remotos.",
+      "id": "2458766275"
+    },
+    {
+      "day": 15,
+      "time": "10:25-11:05",
+      "area": "D / 17.2",
+      "stop": "KingFast",
+      "stand": "17.2E17-18",
+      "purpose": "SSD/NVMe y RAM. Lista de materiales y muestra.",
+      "id": "2445356692"
+    },
+    {
+      "day": 15,
+      "time": "11:15-11:50",
+      "area": "D / 17.2",
+      "stop": "Heentai",
+      "stand": "17.2G37-40",
+      "purpose": "Segunda comparación de SSD y memoria.",
+      "id": "2370339229"
+    },
+    {
+      "day": 15,
+      "time": "12:00-12:45",
+      "area": "D / 17.2",
+      "stop": "Beijing Guangtian Runze",
+      "stand": "17.2G65-68",
+      "purpose": "Storage servers y configuración GPU/AI.",
+      "id": "2412570608"
+    },
+    {
+      "day": 15,
+      "time": "12:45-13:25",
+      "area": "D",
+      "stop": "Almuerzo y notas",
+      "stand": "",
+      "purpose": "Ordenar fotos de modelos, stands y cotizaciones.",
+      "id": ""
+    },
+    {
+      "day": 15,
+      "time": "13:30-14:10",
+      "area": "D / 17.2",
+      "stop": "ELSKY",
+      "stand": "17.2J37-38",
+      "purpose": "Mini PCs/IPC modernos y montaje en rack.",
+      "id": "2386743368"
+    },
+    {
+      "day": 15,
+      "time": "14:20-14:35",
+      "area": "D / 18.2",
+      "stop": "Shanghai Huan Ye",
+      "stand": "18.2E27-29",
+      "purpose": "Mini PC alternativo. Descartar rápido si no aporta ficha técnica.",
+      "id": "2480770708"
+    },
+    {
+      "day": 15,
+      "time": "14:45-15:05",
+      "area": "D / 18.2",
+      "stop": "Signal Fire (complemento)",
+      "stand": "18.2J15-16",
+      "purpose": "OTDR/fusionadora para cuadrillas de fibra.",
+      "id": "1440813602"
+    },
+    {
+      "day": 15,
+      "time": "15:10-15:30",
+      "area": "D / 18.2",
+      "stop": "FINEN",
+      "stand": "18.2J33-34 / K15-16",
+      "purpose": "Bandejas y PDU. Preguntar por tomas conmutables/SNMP.",
+      "id": "1396706775"
+    },
+    {
+      "day": 15,
+      "time": "15:35-16:00",
+      "area": "D / 18.2",
+      "stop": "Ulefone",
+      "stand": "18.2K24",
+      "purpose": "Nueva línea Mini PC y cámara térmica para mantenimiento.",
+      "id": "2473260832"
+    },
+    {
+      "day": 15,
+      "time": "16:00-16:20",
+      "area": "D",
+      "stop": "Traslado a 20.1",
+      "stand": "",
+      "purpose": "Margen orientativo para caminar y cambiar de nivel.",
+      "id": ""
+    },
+    {
+      "day": 15,
+      "time": "16:20-17:05",
+      "area": "D / 20.1",
+      "stop": "ShareVDI",
+      "stand": "20.1E06",
+      "purpose": "Mini PC industrial, firewall y edge AI.",
+      "id": "2566785642"
+    },
+    {
+      "day": 15,
+      "time": "17:10-17:40",
+      "area": "D / 20.1",
+      "stop": "Freshliance o pendientes",
+      "stand": "20.1C36-37",
+      "purpose": "Sensores para POP. Si falta tiempo, priorizar reunión de computación.",
+      "id": "web-freshliance"
+    },
+    {
+      "day": 16,
+      "time": "09:30-10:10",
+      "area": "C / 15.2",
+      "stop": "RPT POWER",
+      "stand": "15.2B06-07",
+      "purpose": "LFP de rack y telecom. Pack completo y BMS.",
+      "id": "web-rpt-power-renergy"
+    },
+    {
+      "day": 16,
+      "time": "10:20-11:05",
+      "area": "C / 15.2",
+      "stop": "INVT",
+      "stand": "15.2B34-36 / C08-10",
+      "purpose": "UPS y ESS. Seleccionar alimentación mono/trifásica adecuada.",
+      "id": "0998375054"
+    },
+    {
+      "day": 16,
+      "time": "11:15-11:50",
+      "area": "C / 15.2",
+      "stop": "Yuyang",
+      "stand": "15.2B40-42",
+      "purpose": "Segunda oferta de batería rack LFP.",
+      "id": "2350236101"
+    },
+    {
+      "day": 16,
+      "time": "12:00-12:35",
+      "area": "C / 15.2",
+      "stop": "Champion",
+      "stand": "15.2F01-02 / E43-44",
+      "purpose": "UPS y banco compatible. Pedir sistema completo.",
+      "id": "0712908360"
+    },
+    {
+      "day": 16,
+      "time": "12:35-13:20",
+      "area": "C",
+      "stop": "Almuerzo y comparación",
+      "stand": "",
+      "purpose": "Separar USD/kWh utilizable, corriente y respaldo AC/DC.",
+      "id": ""
+    },
+    {
+      "day": 16,
+      "time": "13:30-14:10",
+      "area": "C / 15.2",
+      "stop": "KIJO",
+      "stand": "15.2G34-35",
+      "purpose": "Batería para telecom/UPS y garantía por ciclo.",
+      "id": "1657627001"
+    },
+    {
+      "day": 16,
+      "time": "14:20-15:00",
+      "area": "C / 15.2",
+      "stop": "SANTAK",
+      "stand": "15.2I04",
+      "purpose": "UPS rack y PDU. Compatibilidad LFP documentada.",
+      "id": "1688031886"
+    },
+    {
+      "day": 16,
+      "time": "15:10-15:45",
+      "area": "C / 15.2",
+      "stop": "Lithtech",
+      "stand": "15.2I05",
+      "purpose": "Comparar baterías LFP y soporte BMS.",
+      "id": "web-lithtech"
+    },
+    {
+      "day": 16,
+      "time": "15:55-16:30",
+      "area": "C / 15.2",
+      "stop": "Dawnice",
+      "stand": "15.2J07",
+      "purpose": "Pack server rack: validar SKU, Ah y capacidad bajo carga.",
+      "id": "2374552174"
+    },
+    {
+      "day": 16,
+      "time": "16:40-17:30",
+      "area": "C / 15.2",
+      "stop": "Alternativas del mismo hall",
+      "stand": "H36 / I39 / J04 / J08",
+      "purpose": "Frey, EVPS, Tai Energy y Wannian Xin. Selección según brechas.",
+      "id": ""
+    },
+    {
+      "day": 16,
+      "time": "17:30-18:00",
+      "area": "C",
+      "stop": "Cerrar especificaciones",
+      "stand": "",
+      "purpose": "Elegir dos sistemas comparables para volver el día 17.",
+      "id": ""
+    },
+    {
+      "day": 17,
+      "time": "09:30-10:10",
+      "area": "C / 15.3",
+      "stop": "EAST UPS",
+      "stand": "15.3A32-33 / B01-02",
+      "purpose": "UPS de infraestructura, autonomía y gestión.",
+      "id": "0754811467"
+    },
+    {
+      "day": 17,
+      "time": "10:20-10:50",
+      "area": "C / 15.3",
+      "stop": "LEOCH Zhaoqing",
+      "stand": "15.3E34-35 / F10-11",
+      "purpose": "Baterías para UPS/telecom. Identificar línea LFP.",
+      "id": "0940976258"
+    },
+    {
+      "day": 17,
+      "time": "11:00-11:25",
+      "area": "C / 15.3",
+      "stop": "Reros o UPSystem",
+      "stand": "15.3D25-26 / F14-15",
+      "purpose": "Alternativa UPS si falta cubrir potencia, bypass o soporte.",
+      "id": "0952858640"
+    },
+    {
+      "day": 17,
+      "time": "11:25-11:45",
+      "area": "C",
+      "stop": "Traslado a 14.2",
+      "stand": "",
+      "purpose": "Cambiar de hall/nivel con margen.",
+      "id": ""
+    },
+    {
+      "day": 17,
+      "time": "11:50-12:30",
+      "area": "C / 14.2",
+      "stop": "Prostar Guangdong",
+      "stand": "14.2E04",
+      "purpose": "UPS rack y monitoreo local.",
+      "id": "1780937246"
+    },
+    {
+      "day": 17,
+      "time": "12:30-13:10",
+      "area": "C",
+      "stop": "Almuerzo",
+      "stand": "",
+      "purpose": "Comparar ofertas con mismo alcance.",
+      "id": ""
+    },
+    {
+      "day": 17,
+      "time": "13:20-13:55",
+      "area": "C / 14.2",
+      "stop": "Deye",
+      "stand": "14.2E23-24 / F21-22",
+      "purpose": "Inversor/batería para nodo remoto. Verificar continuidad.",
+      "id": "web-deye"
+    },
+    {
+      "day": 17,
+      "time": "14:05-14:45",
+      "area": "C / 14.2",
+      "stop": "Voltronic",
+      "stand": "14.2I32-33 / J12-13",
+      "purpose": "Ruta ODM, MOQ y soporte de UPS/inversor.",
+      "id": "1244703865"
+    },
+    {
+      "day": 17,
+      "time": "14:55-15:25",
+      "area": "C / 14.2",
+      "stop": "SRNE, Felicity o revisión técnica",
+      "stand": "C06-07 / G34-36",
+      "purpose": "Resolver diferencias y pedir ensayo con la carga de referencia.",
+      "id": ""
+    },
+    {
+      "day": 17,
+      "time": "15:25-16:00",
+      "area": "C a A",
+      "stop": "Traslado a 3.1",
+      "stand": "",
+      "purpose": "Solo con demo/reunión confirmada. El tiempo es un margen de planificación.",
+      "id": ""
+    },
+    {
+      "day": 17,
+      "time": "16:00-16:45",
+      "area": "A / 3.1",
+      "stop": "Beijing Jinma Times",
+      "stand": "3.1L35",
+      "purpose": "Workstation/servidor GPU. Modelo real, VRAM, drivers, garantía y benchmark.",
+      "id": "2413070554"
+    },
+    {
+      "day": 17,
+      "time": "17:00-17:45",
+      "area": "Según finalistas",
+      "stop": "Muestras y siguientes pasos",
+      "stand": "",
+      "purpose": "BOM, cotización escrita, lead time, DOA/RMA y plan de prueba en Argentina.",
+      "id": ""
+    }
+  ],
+  "officialMap": "https://365.cantonfair.org.cn/en-US/exhibition-hall-map?phase=first",
+  "completedOn15": [
+    "2462254563",
+    "2458766275",
+    "2445356692",
+    "2370339229",
+    "2412570608",
+    "2386743368",
+    "1396706775",
+    "2473260832",
+    "2566785642",
+    "2360138915",
+    "web-tleagle-teliang",
+    "2480770708",
+    "web-owon",
+    "0888448517",
+    "2382235519",
+    "1440813602",
+    "1815649269",
+    "1944001535",
+    "2526082319",
+    "2431659589",
+    "2328152187",
+    "1725138090",
+    "web-freshliance",
+    "1731436637",
+    "2527687346",
+    "2545289259",
+    "2582375891",
+    "2383341655",
+    "2357233703",
+    "2017308623"
+  ],
+  "networkFocusIds": [
+    "2322349821",
+    "2342040372",
+    "2540881341",
+    "2545289259",
+    "2357233703",
+    "1963604036",
+    "2683896374",
+    "2441054903",
+    "1815649269"
+  ],
+  "access": "public",
+  "connectionNote": "El dominio chatgpt.site devolvió bloqueo Cloudflare 403 desde la conexión de prueba. Hay copia pública alternativa y descarga HTML/PDF."
+}</script>
+<script>
+'use strict';
+const DATA=JSON.parse(document.getElementById('app-data').textContent), $=id=>document.getElementById(id), esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const ico=name=>`<svg class="icon"><use href="#i-${name}"/></svg>`, byId=Object.fromEntries(DATA.suppliers.map(s=>[s.id,s])), hallById=Object.fromEntries(DATA.halls.map(h=>[h.id,h]));
+const STORE='eternet-canton-2026-v1';let prefs={visited:[],saved:[],notes:{}};try{const p=JSON.parse(localStorage.getItem(STORE)||'null');if(p&&Array.isArray(p.visited)&&Array.isArray(p.saved)&&p.notes&&typeof p.notes==='object')prefs=p;}catch{}
+if(!prefs.confirmedD15Applied){prefs.visited=[...new Set([...prefs.visited,...DATA.completedOn15])];prefs.confirmedD15Applied=true;try{localStorage.setItem(STORE,JSON.stringify(prefs));}catch{}}
+const params=new URLSearchParams(location.hash.slice(1));const chinaDay=new Intl.DateTimeFormat('en-GB',{timeZone:'Asia/Shanghai',day:'2-digit'}).format(new Date());let day=['15','16','17'].includes(params.get('day'))?params.get('day'):(chinaDay==='17'?'17':'16'),view=['map','route','suppliers','ideas'].includes(params.get('view'))?params.get('view'):'map',mapAll=false,selectedHall='17.2',optional=false,category='Ruta',onlyNew=false,onlySaved=false,onlyPending=false,selectedId=null;
+let vb={x:0,y:0,w:800,h:600};const NS='http://www.w3.org/2000/svg';
+function save(){try{localStorage.setItem(STORE,JSON.stringify(prefs));}catch{toast('No se pudieron guardar los datos. Exportá tus notas.');}}
+function toast(msg){$('toast').textContent=msg;$('toast').classList.add('show');clearTimeout(toast.timer);toast.timer=setTimeout(()=>$('toast').classList.remove('show'),3500);}
+function setHash(){try{history.replaceState(null,'','#'+new URLSearchParams({day,view}));}catch{}}
+function getStops(){return DATA.routes[day].stops.filter(s=>optional||!s.optional);}
+function locationFor(s){const r=DATA.routes[day].stops.find(t=>t.id===s.id);return r?{hall:r.hall||s.hall,stand:r.stand||s.stand,area:r.area||s.area}:{hall:s.hall,stand:s.stand,area:s.area};}
+function stopLocation(stop){return{hall:stop.hall||byId[stop.id].hall,stand:stop.stand||byId[stop.id].stand,area:stop.area||byId[stop.id].area};}
+function setView(v,scroll=true){view=v;document.querySelectorAll('.view').forEach(el=>el.classList.toggle('active',el.id==='view-'+v));document.querySelectorAll('.navitem').forEach(el=>el.classList.toggle('active',el.dataset.view===v));setHash();if(v==='map'){renderMap();fitMap();renderHall();}if(v==='route')renderRoute();if(v==='suppliers')renderCatalog();if(scroll)window.scrollTo({top:0,behavior:'instant'});}
+function setDay(d){day=d;document.querySelectorAll('.day').forEach(b=>b.setAttribute('aria-selected',b.dataset.day===d));$('map-title').textContent=mapAll?'Todos los proveedores':`El recorrido del ${day}`;$('map-all-c').style.display=day==='16'?'inline-flex':'none';selectedHall=stopLocation(getStops()[0]).hall;renderMap();fitMap();renderHall();renderRoute();if(view==='suppliers')renderCatalog();setHash();}
+function toggleVisited(id,on){prefs.visited=on?[...new Set([...prefs.visited,id])]:prefs.visited.filter(x=>x!==id);save();renderRoute();renderHall();if(view==='suppliers')renderCatalog();}
+function showSupplier(id){selectedId=id;const s=byId[id],loc=locationFor(s),isSaved=prefs.saved.includes(id);$('supplier-modal').innerHTML=`<div class="modal-top"><div><span class="tag ${s.new?'new':''}">${s.new?'Hallazgo nuevo':esc(s.bucket)}</span><h2>${esc(s.name)}</h2><div class="mini-meta">${esc(s.category)}</div></div><button class="round" data-close="supplier-dialog" aria-label="Cerrar proveedor">${ico('close')}</button></div><div class="modal-body"><div class="bigstand"><small>ÁREA ${esc(loc.area)} · PABELLÓN ${esc(loc.hall)} · PISO ${esc(loc.hall.split('.')[1])}</small><div class="stand">${esc(loc.stand)}</div>${s.allBooths!==loc.stand?`<div class="standalt">Todos sus stands: ${esc(s.allBooths)}</div>`:''}</div><p>${esc(s.notes)}</p>${s.products?.length?`<div class="mini-meta">En catálogo / anuncio: ${esc(s.products.slice(0,4).join(' · '))}</div>`:''}<div class="modal-actions"><button class="smallbtn primary" id="modal-map">${ico('pin')}Ver pabellón</button><button class="smallbtn ${isSaved?'orange':''}" id="modal-save">${ico('star')}${isSaved?'Favorito guardado':'Guardar favorito'}</button></div><label class="check"><input type="checkbox" id="modal-visited" ${prefs.visited.includes(id)?'checked':''}>Ya visitamos este proveedor</label><label class="note-label" for="supplier-notes">Mis notas de la visita</label><textarea id="supplier-notes" placeholder="Modelo, precio, contacto de WeChat, pendientes…">${esc(prefs.notes[id]||'')}</textarea><div class="save-caption">Solo en este teléfono. Exportá para compartir.</div><div class="source-links"><a href="${esc(s.source)}" target="_blank" rel="noopener">Fuente del stand ↗</a>${s.productSource?`<a href="${esc(s.productSource)}" target="_blank" rel="noopener">Producto / fabricante ↗</a>`:''}</div><div class="source-info">${esc(s.evidence)}<div class="legal">${esc(s.legalName)}</div>Modelos y funciones a confirmar en el stand.</div></div>`;$('modal-map').onclick=()=>{$('supplier-dialog').close();selectedHall=loc.hall;setView('map');renderMap();focusHall(selectedHall);renderHall();if(innerWidth<901)$('hall-panel').scrollIntoView({behavior:'smooth',block:'start'});};$('modal-save').onclick=()=>{const yes=prefs.saved.includes(id);prefs.saved=yes?prefs.saved.filter(x=>x!==id):[...prefs.saved,id];save();$('modal-save').innerHTML=ico('star')+(yes?'Guardar favorito':'Favorito guardado');$('modal-save').classList.toggle('orange',!yes);if(view==='suppliers')renderCatalog();};$('modal-visited').onchange=e=>toggleVisited(id,e.target.checked);$('supplier-notes').oninput=e=>{prefs.notes[id]=e.target.value;save();};$('supplier-dialog').showModal();}
+function hallRows(hall){let arr=mapAll?DATA.suppliers.filter(s=>s.halls.includes(hall)).map(s=>({s,loc:{hall,stand:boothsForHall(s,hall),area:hallById[hall]?.area||s.area}})):getStops().map((t,i)=>({s:byId[t.id],loc:stopLocation(t),i:i+1,t})).filter(x=>x.loc.hall===hall);return arr.sort((a,b)=>mapAll?a.loc.stand.localeCompare(b.loc.stand):a.i-b.i);}
+function boothsForHall(s,hall){if(hall===s.hall)return s.stand;return (s.allBooths.match(new RegExp(hall.replace('.','\\.')+'[A-Z][0-9]{2}(?:-[0-9]{2})?','g'))||[hall]).join(' / ');}
+function renderHall(){const rows=hallRows(selectedHall),h=hallById[selectedHall];$('hall-title').textContent='Pabellón '+selectedHall;$('hall-area').textContent=`Área ${h?.area||''} · piso ${selectedHall.split('.')[1]}`;$('hall-subtitle').textContent=`${rows.length} ${rows.length===1?'proveedor':'proveedores'} ${mapAll?'en el directorio':'en esta ruta'} · orden por ${mapAll?'código':'visita'}`;$('hall-list').innerHTML=rows.length?rows.map(({s,loc,i,t})=>`<button class="supplier-row" data-supplier="${esc(s.id)}">${i?`<span class="route-number ${s.new?'newnum':''}">${i}</span>`:''}<span class="row-info"><span class="stand">${esc(loc.stand)}</span><strong>${esc(s.name)} ${prefs.visited.includes(s.id)?'✓':''}</strong><small>${esc(s.category)}</small>${s.new?'<span class="tag new">Nuevo</span>':''} ${t?.optional?'<span class="tag opt">Opcional</span>':''}</span><span class="chevron">›</span></button>`).join(''):`<div class="hall-empty">No hay paradas aquí para esta ruta.<br><br><button class="smallbtn" id="hall-show-all">Ver proveedores del directorio</button></div>`;if($('hall-show-all'))$('hall-show-all').onclick=()=>{mapAll=true;renderMap();renderHall();};document.querySelectorAll('[data-hall-chip]').forEach(b=>b.classList.toggle('active',b.dataset.hallChip===selectedHall));}
+function renderRoute(){const r=DATA.routes[day],stops=getStops();$('route-title').textContent=r.title;$('route-subtitle').textContent=r.subtitle;$('route-optional').style.display=r.stops.some(t=>t.optional)?'inline-flex':'none';$('route-state').textContent=r.state;$('route-intro').textContent=r.intro;$('route-optional').textContent=optional?'Ocultar opcionales':'Mostrar opcionales';const done=stops.filter(t=>prefs.visited.includes(t.id)).length;$('progress-bar').style.width=(done/stops.length*100)+'%';$('route-summary').textContent=`${done} de ${stops.length} visitados`;$('route-list').innerHTML=stops.map((t,i)=>{const s=byId[t.id],loc=stopLocation(t),done=prefs.visited.includes(s.id);return`<article class="stopcard ${done?'done':''}"><div class="stop-top"><span class="route-number ${s.new?'newnum':''}">${i+1}</span><span class="mini-meta">${esc(t.block)}</span><div class="right">${s.new?'<span class="tag new">Nuevo</span>':''}${t.optional?'<span class="tag opt">Opcional</span>':''}</div></div><h3><button data-supplier="${esc(s.id)}">${esc(s.name)} ›</button></h3><div class="stand">${esc(loc.stand)}</div><div class="mini-meta">Área ${loc.area} · ${loc.hall}</div><p>${esc(t.why)}</p><div class="stopfoot"><label class="check"><input type="checkbox" data-visited="${s.id}" ${done?'checked':''}>Visitado</label><button class="smallbtn" data-map-id="${s.id}">${ico('pin')}En mapa</button></div></article>`;}).join('');}
+function renderCatalog(){const q=($('search').value||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().trim(),area=$('supplier-area').value;const arr=DATA.suppliers.filter(s=>(!area||s.halls.some(h=>hallById[h]?.area===area))&&(category==='Ruta'?getStops().some(t=>t.id===s.id):(category==='Todos'||s.bucket===category))&&(!onlyNew||s.new)&&(!onlySaved||prefs.saved.includes(s.id))&&(!onlyPending||!prefs.visited.includes(s.id))&&(!q||[s.name,s.legalName,s.category,s.allBooths,s.notes,...(s.products||[])].join(' ').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().includes(q)));$('results-meta').textContent=`${arr.length} resultados`;$('supplier-list').innerHTML=arr.length?arr.map(s=>`<button class="catalogcard" data-supplier="${esc(s.id)}"><div class="cardtop"><span class="mini-meta">Área ${s.area} · ${esc(s.hall)}</span>${s.new?'<span class="tag new">Nuevo</span>':''}${prefs.saved.includes(s.id)?'<span class="tag">★</span>':''}${prefs.visited.includes(s.id)?'<span class="tag done">Visitado</span>':''}</div><h3>${esc(s.name)}</h3><p>${esc(s.category)}</p><div class="stand">${esc(s.stand)}</div></button>`).join(''):'<div class="empty">No hay coincidencias con estos filtros.<br><br><button class="smallbtn" id="clear-filters">Limpiar filtros</button></div>';$('only-new').classList.toggle('active',onlyNew);$('only-saved').classList.toggle('active',onlySaved);$('only-pending').classList.toggle('active',onlyPending);$('category-filters').innerHTML=['Ruta','Todos','Routers','Energía','Red e IoT','Cómputo'].map(c=>`<button class="chip ${category===c?'active':''}" data-category="${c}">${c}</button>`).join('');if($('clear-filters'))$('clear-filters').onclick=()=>{$('search').value='';$('supplier-area').value='';category='Ruta';onlyNew=onlySaved=onlyPending=false;renderCatalog();};}
+function renderIdeas(){const ids=['2322349821','2342040372','2540881341','2357233703'];const titles=['COMFAST','PIX-LINK','Signalinks','Four-Faith'];$('ideas-list').innerHTML=ids.map((id,i)=>{const s=byId[id];return`<article class="idea"><p class="eyebrow">${esc(s.hall)}</p><h3>${titles[i]}</h3><p>${esc(s.notes)}</p><button class="smallbtn" data-supplier="${id}">${esc(s.stand)} ↗</button></article>`;}).join('');}
+function elem(name,attrs={},parent=$('map')){const n=document.createElementNS(NS,name);for(const[k,v]of Object.entries(attrs))n.setAttribute(k,v);parent.appendChild(n);return n;}function txt(str,x,y,size=11,fill='#57716a',weight=500,parent=$('map')){const n=elem('text',{x,y,'font-size':size,fill,'font-weight':weight,'text-anchor':'middle','font-family':'system-ui,sans-serif'},parent);n.textContent=str;return n;}
+function applyView(){ $('map').setAttribute('viewBox',`${vb.x} ${vb.y} ${vb.w} ${vb.h}`);}
+function boundsFor(hs){return{x:Math.min(...hs.map(h=>h.x)),y:Math.min(...hs.map(h=>h.y)),r:Math.max(...hs.map(h=>h.x+h.w)),b:Math.max(...hs.map(h=>h.y+h.h))};}
+function fitBounds(hs,pad=38){if(!hs.length)return;const b=boundsFor(hs),ratio=($('map-viewport').clientWidth||700)/($('map-viewport').clientHeight||450);let w=b.r-b.x+pad*2,h=b.b-b.y+pad*2;if(w/h>ratio)h=w/ratio;else w=h*ratio;vb={x:(b.x+b.r-w)/2,y:(b.y+b.b-h)/2,w,h};applyView();}
+function fitMap(all=false){const area=$('map-area').value;const ids=getStops().map(t=>stopLocation(t).hall);const hs=DATA.halls.filter(h=>all?true:area?h.area===area:mapAll?DATA.suppliers.some(s=>s.halls.includes(h.id)):ids.includes(h.id));fitBounds(hs,all?22:34);}
+function focusHall(id){const h=hallById[id];if(!h)return;const group=DATA.halls.filter(x=>x.area===h.area);fitBounds(group,25);}
+function renderMap(){const svg=$('map');svg.innerHTML='';$('map-title').textContent=mapAll?'Todos los proveedores':`El recorrido del ${day}`;$('map-mode-route').classList.toggle('active',!mapAll);$('map-mode-all').classList.toggle('active',mapAll);elem('rect',{x:-1000,y:-1000,width:4000,height:4000,fill:'#eeeee5'});
+ // Roads and hall positions follow the official exploded-floor schematic, not a navigable street map.
+ elem('path',{d:'M10 13 H785 M9 181 H790 M20 316 H660 M180 528 H550',stroke:'#d4d9ce','stroke-width':13,fill:'none'});txt('Yuejiang Zhonglu',388,8,10,'#8c9a8d');txt('Pearl Promenade · circulación central',415,185,10,'#7a8b7a');txt('Xingang Donglu',220,320,10,'#788b7a');txt('Fengpu Zhonglu',416,552,10,'#8c9a8d');
+ const areas=[{a:'D',x:104,y:202,s:'Electrónica / industria'},{a:'A',x:351,y:202,s:'Electrodomésticos / maquinaria'},{a:'B',x:585,y:202,s:'Herramientas / hardware'},{a:'C',x:381,y:343,s:'Medición / eléctrico / energía'}];
+ for(const a of areas){txt('ÁREA '+a.a,a.x,a.y,17,'#46665c',780);txt(a.s,a.x,a.y+13,8,'#7a8b7a');}
+ const stops=getStops(),unique=[];for(const t of stops){const id=stopLocation(t).hall;if(unique.at(-1)!==id)unique.push(id);}const pts=unique.map(id=>hallById[id]).filter(Boolean).map(h=>[h.x+h.w/2,h.y+h.h/2]);
+ if(!mapAll&&pts.length>1){const d=pts.map((p,i)=>(i?'L':'M')+p.join(',')).join(' ');elem('path',{d,stroke:'#fffefb','stroke-width':8,fill:'none','stroke-linejoin':'round','stroke-linecap':'round'});elem('path',{d,stroke:'#d76c32','stroke-width':3.2,fill:'none','stroke-dasharray':'5 5','stroke-linejoin':'round','stroke-linecap':'round'});}
+ const relevant=[],pinLayers=[];
+ for(const h of DATA.halls){const rows=hallRows(h.id),count=rows.length,sel=h.id===selectedHall;const g=elem('g',{class:'hall',role:'button',tabindex:'0','aria-label':`Pabellón ${h.id}, área ${h.area}, ${count} proveedores`,'data-hall':h.id});elem('rect',{x:h.x,y:h.y,width:h.w,height:h.h,rx:2,fill:sel?'#bed5ba':count?'#d8e2ce':'#e5e7dd',stroke:sel?'#173f3b':count?'#a5b9a0':'#cdd4c8','stroke-width':sel?1.7:.7},g);txt(h.id,h.x+h.w/2,h.y+h.h/2+3,Math.min(10,h.w/3),'#33594c',count?750:450,g);if(count){relevant.push(h.id);const cx=h.x+h.w-2,cy=h.y+1;const label=mapAll?String(count):(rows.length===1?String(rows[0].i):rows[0].i+'–'+rows.at(-1).i);const bw=Math.max(18,label.length*5.7+8),pg=elem('g',{'data-hall':h.id,role:'button',tabindex:'0','aria-label':`Paradas ${label} en ${h.id}`});pinLayers.push(pg);elem('rect',{x:cx-bw/2,y:cy-9,width:bw,height:18,rx:9,fill:sel?'#173f3b':'#d76c32',stroke:'#fffefa','stroke-width':1.5},pg);txt(label,cx,cy+3,8,'#fffefa',750,pg);}}
+ pinLayers.forEach(g=>svg.appendChild(g));$('pin-legend').textContent=mapAll?'Número = proveedores':'Números = orden de visita';$('hall-shortcuts').innerHTML=relevant.map(h=>`<button data-hall-chip="${h}" class="${h===selectedHall?'active':''}">${h} <span style="opacity:.65">· ${hallRows(h).length}</span></button>`).join('');applyView();}
+// Map gestures support dragging and pinch zoom, plus explicit zoom controls.
+let pointers=new Map(),gesture=null,dragMoved=false,lastPoint=null;
+$('map').addEventListener('pointerdown',e=>{pointers.set(e.pointerId,{x:e.clientX,y:e.clientY});lastPoint={x:e.clientX,y:e.clientY};dragMoved=false;gesture=pointers.size===2?{dist:Math.hypot(...[...pointers.values()].reduce((a,p,i)=>i?[a[0]-p.x,a[1]-p.y]:[p.x,p.y],[])),vb:{...vb}}:null;});
+$('map').addEventListener('pointermove',e=>{if(!pointers.has(e.pointerId))return;const prev=pointers.get(e.pointerId);pointers.set(e.pointerId,{x:e.clientX,y:e.clientY});const rect=$('map').getBoundingClientRect();if(pointers.size===2){const [a,b]=[...pointers.values()],dist=Math.hypot(a.x-b.x,a.y-b.y);if(gesture?.dist>0){const scale=gesture.dist/dist;zoomTo(gesture.vb.w*scale,gesture.vb.h*scale,gesture.vb);dragMoved=true;}}else{const dx=e.clientX-prev.x,dy=e.clientY-prev.y;if(Math.abs(e.clientX-lastPoint.x)+Math.abs(e.clientY-lastPoint.y)>4)dragMoved=true;if(dragMoved){vb.x-=dx/rect.width*vb.w;vb.y-=dy/rect.height*vb.h;applyView();}}});
+function endPointer(e){pointers.delete(e.pointerId);if(pointers.size===0)gesture=null;}
+$('map').addEventListener('pointerup',endPointer);$('map').addEventListener('pointercancel',endPointer);$('map').addEventListener('pointerleave',endPointer);
+$('map').addEventListener('wheel',e=>{e.preventDefault();zoom(e.deltaY>0?1.15:.87);},{passive:false});
+function zoomTo(w,h,base=vb){if(w<70||w>1700||h<70||h>1700)return;vb={x:base.x+(base.w-w)/2,y:base.y+(base.h-h)/2,w,h};applyView();}function zoom(scale){zoomTo(vb.w*scale,vb.h*scale);}
+$('map').addEventListener('click',e=>{if(dragMoved)return;const h=e.target.closest('[data-hall]');if(h){selectedHall=h.dataset.hall;renderMap();renderHall();if(innerWidth<901)$('hall-panel').scrollIntoView({behavior:'smooth',block:'start'});}});
+$('map').addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){const h=e.target.closest('[data-hall]');if(h){e.preventDefault();selectedHall=h.dataset.hall;renderMap();renderHall();}}});
+document.addEventListener('click',e=>{const s=e.target.closest('[data-supplier]');if(s){showSupplier(s.dataset.supplier);return;}const c=e.target.closest('[data-close]');if(c){$(c.dataset.close).close();return;}const m=e.target.closest('[data-map-id]');if(m){const r=byId[m.dataset.mapId];selectedHall=locationFor(r).hall;setView('map');focusHall(selectedHall);renderHall();return;}const h=e.target.closest('[data-hall-chip]');if(h){selectedHall=h.dataset.hallChip;renderMap();renderHall();focusHall(selectedHall);return;}const cat=e.target.closest('[data-category]');if(cat){category=cat.dataset.category;renderCatalog();}});
+document.addEventListener('change',e=>{if(e.target.matches('[data-visited]'))toggleVisited(e.target.dataset.visited,e.target.checked);});
+document.querySelectorAll('[data-day]').forEach(b=>b.onclick=()=>setDay(b.dataset.day));document.querySelectorAll('[data-view]').forEach(b=>b.onclick=()=>setView(b.dataset.view));$('zoom-in').onclick=()=>zoom(.75);$('zoom-out').onclick=()=>zoom(1.3333);$('zoom-fit').onclick=()=>{$('map-area').value='';fitMap(true);};$('map-fit').onclick=()=>{$('map-area').value='';fitMap();};$('map-area').onchange=()=>fitMap();$('map-mode-route').onclick=()=>{mapAll=false;selectedHall=stopLocation(getStops()[0]).hall;renderMap();fitMap();renderHall();};$('map-mode-all').onclick=()=>{mapAll=true;renderMap();fitMap();renderHall();};$('map-all-c').onclick=()=>{mapAll=true;$('map-area').value='C';selectedHall='15.2';renderMap();fitMap();renderHall();};$('show-day-route').onclick=()=>setView('route');$('route-optional').onclick=()=>{optional=!optional;renderRoute();renderMap();renderHall();};$('search').oninput=()=>{if($('search').value.trim())category='Todos';renderCatalog();};$('supplier-area').onchange=renderCatalog;$('only-new').onclick=()=>{onlyNew=!onlyNew;if(onlyNew)category='Todos';renderCatalog();};$('only-saved').onclick=()=>{onlySaved=!onlySaved;if(onlySaved)category='Todos';renderCatalog();};$('only-pending').onclick=()=>{onlyPending=!onlyPending;renderCatalog();};
+$('info').onclick=()=>$('help-dialog').showModal();
+$('share').onclick=async()=>{const url=location.href;try{if(navigator.share){await navigator.share({title:'Eternet · Mapa Canton Fair',url});}else if(navigator.clipboard){await navigator.clipboard.writeText(url);toast('Enlace público copiado: se abre sin cuenta.');}else toast('Copiá el enlace de la barra del navegador.');}catch(e){if(e.name!=='AbortError')toast('Copiá el enlace de la barra del navegador.');}};
+function download(blob,name){const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(a.href),2000);}
+$('download-offline').onclick=()=>{const clone=document.documentElement.cloneNode(true);clone.querySelectorAll('dialog').forEach(d=>d.removeAttribute('open'));clone.querySelector('#toast').classList.remove('show');clone.querySelector('#supplier-modal').innerHTML='';clone.querySelector('link[rel="manifest"]')?.remove();clone.querySelector('link[rel="icon"]')?.remove();download(new Blob(['<!doctype html>\n'+clone.outerHTML],{type:'text/html;charset=utf-8'}),'eternet-canton-mapa-offline.html');toast('HTML descargado con el directorio. Las notas se exportan aparte.');};
+$('export-notes').onclick=()=>download(new Blob([JSON.stringify({schema:'eternet-canton-notes-v1',exportedAt:new Date().toISOString(),...prefs},null,2)],{type:'application/json'}),'eternet-canton-mis-notas.json');
+$('import-notes').onchange=async e=>{const file=e.target.files[0];if(!file)return;try{if(file.size>2000000)throw Error();const d=JSON.parse(await file.text());if(d.schema!=='eternet-canton-notes-v1'||!Array.isArray(d.visited)||!Array.isArray(d.saved)||!d.notes||typeof d.notes!=='object')throw Error();prefs.visited=[...new Set([...prefs.visited,...d.visited.filter(id=>byId[id])])];prefs.saved=[...new Set([...prefs.saved,...d.saved.filter(id=>byId[id])])];for(const[id,note]of Object.entries(d.notes))if(byId[id]&&typeof note==='string')prefs.notes[id]=note.slice(0,20000);save();renderRoute();renderCatalog();renderHall();toast('Notas importadas y combinadas con este dispositivo.');}catch{toast('Archivo inválido. Usá una exportación de este mapa.');}e.target.value='';};
+window.addEventListener('resize',()=>{if(view==='map')fitMap();});window.addEventListener('online',()=>{$('offline-state').textContent='Con conexión.';});window.addEventListener('offline',()=>{$('offline-state').textContent='Sin conexión. El directorio cargado sigue disponible; las fuentes externas requieren internet.';});
+if(location.protocol==='https:'||location.hostname==='127.0.0.1'||location.hostname==='localhost'){if('serviceWorker'in navigator){navigator.serviceWorker.register('./sw.js').then(()=>navigator.serviceWorker.ready).then(()=>{$('offline-state').textContent='Copia local preparada por el navegador. Probá abrir el mapa sin señal antes de depender de ella.';}).catch(()=>{$('offline-state').textContent='La copia automática no quedó preparada. Descargá el HTML como respaldo.';});}}else $('offline-state').textContent='Archivo HTML local: mapa y directorio incluidos; notas guardadas si el visor permite almacenamiento.';
+renderIdeas();setDay(day);renderCatalog();setView(view,false);fitMap();
+</script></body></html>
